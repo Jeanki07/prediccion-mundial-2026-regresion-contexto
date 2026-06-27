@@ -6,8 +6,8 @@ En este proyecto se trabaja con dos variables objetivo numéricas e independient
 * **y_away** = Goles anotados por el equipo visitante.
 
 Debido a esta naturaleza, cada algoritmo se entrena de forma independiente en dos ocasiones:
-1. `modelo_home` &rarr; Predice $y_{home}$
-2. `modelo_away` &rarr; Predice $y_{away}$
+1. `modelo_home` &rarr; Predice $y_{\text{home}}$
+2. `modelo_away` &rarr; Predice $y_{\text{away}}$
 
 ---
 
@@ -43,8 +43,10 @@ Modela la relación entre las variables mediante una combinación lineal de los 
 $$\hat{y} = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_{13} X_{13}$$
 
 Por lo tanto, el sistema se desglosa en:
-$$\hat{y}_{home} = \beta_{0,home} + \sum_{i=1}^{13} \beta_{i,home} X_i$$
-$$\hat{y}_{away} = \beta_{0,away} + \sum_{i=1}^{13} \beta_{i,away} X_i$$
+
+$$\hat{y}_{\text{home}} = \beta_{0,\text{home}} + \sum_{i=1}^{13} \beta_{i,\text{home}} X_i$$
+
+$$\hat{y}_{\text{away}} = \beta_{0,\text{away}} + \sum_{i=1}^{13} \beta_{i,\text{away}} X_i$$
 
 > **Interpretación de Coeficientes:**
 > * $\beta > 0$: El incremento de la variable aumenta la expectativa de goles.
@@ -88,17 +90,19 @@ Aislada la variable, obtenemos la tasa de goles:
 $$\lambda = \exp\left(\beta_0 + \sum_{i=1}^{13} \beta_i X_i\right)$$
 
 Definiendo así las tasas individuales:
-$$\lambda_{home} = \exp(\dots) \quad \text{y} \quad \lambda_{away} = \exp(\dots)$$
+$$\lambda_{\text{home}} = \exp\left(\beta_{0,\text{home}} + \sum_{i=1}^{13} \beta_{i,\text{home}} X_i\right)$$
+
+$$\lambda_{\text{away}} = \exp\left(\beta_{0,\text{away}} + \sum_{i=1}^{13} \beta_{i,\text{away}} X_i\right)$$
 
 ---
 
 ## 🎲 Matriz de Probabilidades
 
-Utilizando las tasas estimadas ($\lambda_{home}, \lambda_{away}$), se calculan las probabilidades marginales de que ocurra un marcador exacto de goles ($a$ para el local y $b$ para el visitante):
+Utilizando las tasas estimadas ($\lambda_{\text{home}}, \lambda_{\text{away}}$), se calculan las probabilidades marginales de que ocurra un marcador exacto de goles ($a$ para el local y $b$ para el visitante):
 
-$$P(\text{Home} = a) = \frac{e^{-\lambda_{home}} \cdot \lambda_{home}^a}{a!}$$
+$$P(\text{Home} = a) = \frac{e^{-\lambda_{\text{home}}} \cdot \lambda_{\text{home}}^a}{a!}$$
 
-$$P(\text{Away} = b) = \frac{e^{-\lambda_{away}} \cdot \lambda_{away}^b}{b!}$$
+$$P(\text{Away} = b) = \frac{e^{-\lambda_{\text{away}}} \cdot \lambda_{\text{away}}^b}{b!}$$
 
 Asumiendo la independencia de los eventos, la probabilidad conjunta de un marcador exacto $(a, b)$ es:
 
@@ -116,16 +120,16 @@ A partir de esta matriz de resultados posibles, derivamos los tres escenarios de
 ### Ajuste de Dixon-Coles
 La distribución de Poisson clásica tiende a subestimar la ocurrencia de ciertos marcadores de pocos goles en el fútbol real. Se aplica el modelo de Dixon-Coles mediante un factor de corrección $\tau$:
 
-$$P_{\text{ajustada}}(a,b) = P(a,b) \times \tau(a, b, \lambda_{home}, \lambda_{away}, \rho)$$
+$$P_{\text{ajustada}}(a,b) = P(a,b) \times \tau(a, b, \lambda_{\text{home}}, \lambda_{\text{away}}, \rho)$$
 
 Este ajuste optimiza de forma precisa las probabilidades en los marcadores de baja anotación históricos: $(0-0), (1-0), (0-1), (1-1)$.
 
 ### Ajuste por Contexto Competitivo
 Permite ponderar la importancia, urgencia o estilo de juego situacional mediante modificadores sobre las expectativas base:
 
-$$\lambda_{home\_final} = \lambda_{home\_base} \times \text{factor\_contexto}_{home}$$
+$$\lambda_{\text{home-final}} = \lambda_{\text{home-base}} \times \text{factor-contexto}_{\text{home}}$$
 
-$$\lambda_{away\_final} = \lambda_{away\_base} \times \text{factor\_contexto}_{away}$$
+$$\lambda_{\text{away-final}} = \lambda_{\text{away-base}} \times \text{factor-contexto}_{\text{away}}$$
 
 Los factores se tipifican bajo la siguiente escala referencial:
 * **1.10**: Planteamiento ofensivo / Necesidad crítica de victoria (+10% ataque).
