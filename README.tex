@@ -1,18 +1,24 @@
-MODELO MUNDIAL 2026 - COMPETENCIA DE MODELOS Y CONTEXTO COMPETITIVO
+MODELO MUNDIAL 2026 - COMPETENCIA DE MODELOS, CONTEXTO COMPETITIVO Y CLASIFICADOS
 
-Este proyecto construye un modelo predictivo para estimar resultados de partidos del Mundial 2026.
-El sistema entrena varios modelos de regresión, predice goles esperados para cada equipo y 
-luego ajusta esas predicciones usando contexto competitivo de fase de grupos.
+Este proyecto construye un sistema predictivo para estimar resultados de partidos del Mundial 2026.
 
-El modelo genera:
+El sistema entrena varios modelos de regresión, predice goles esperados para cada equipo, ajusta esas predicciones con contexto competitivo de fase de grupos y finalmente simula las tablas finales de grupo para determinar qué selecciones clasificarían a dieciseisavos de final.
 
-- Competencia entre modelos.
-- Mejor modelo según MAE promedio.
-- Predicciones de goles esperados.
-- Probabilidades de victoria local, empate y victoria visitante.
+============================================================
+OBJETIVO DEL PROYECTO
+============================================================
+
+El objetivo principal es predecir:
+
+- Marcadores probables de cada partido.
+- Probabilidad de victoria local, empate y victoria visitante.
 - Top 10 marcadores más probables.
-- Ajuste por contexto competitivo.
-- Gráficos y tablas por partido.
+- Modelo ganador entre varios algoritmos.
+- Contexto competitivo de cada partido.
+- Tablas finales predichas de cada grupo.
+- Primeros y segundos de grupo.
+- Mejores terceros clasificados.
+- Posibles cruces de dieciseisavos de final.
 
 ============================================================
 ESTRUCTURA ESPERADA
@@ -22,10 +28,12 @@ modelo regresion/
 │
 ├── data/
 │   ├── results.csv
+│   ├── results_backup_antes_mundial_2026.csv
 │   ├── fifa_ranking.csv
 │   ├── elo_ranking.csv
 │   ├── fixtures_2026.csv
 │   ├── fixtures_2026_group_stage.csv
+│   ├── fair_play.csv
 │   ├── data_modelo.csv
 │   ├── fixtures_modelo.csv
 │   └── fixtures_contexto_grupos.csv
@@ -39,7 +47,15 @@ modelo regresion/
 │   ├── predicciones_todos_modelos.csv
 │   ├── top10_marcadores.csv
 │   ├── top10_todos_modelos.csv
-│   └── graficos generados
+│   ├── partidos_grupo_resultado_modelo.csv
+│   ├── tabla_grupos_predicha.csv
+│   ├── clasificados_grupos.csv
+│   ├── mejores_terceros.csv
+│   ├── clasificados_16avos.csv
+│   ├── cruces_16avos_predichos.csv
+│   ├── panel_tablas_grupos.png
+│   ├── panel_clasificados_16avos.png
+│   └── panel_cruces_16avos.png
 │
 ├── 00_actualizar_results_mundial.py
 ├── 01_construir_data_modelo.py
@@ -47,6 +63,7 @@ modelo regresion/
 ├── 03_visualizar_partido_modelos.py
 ├── 04_mostrar_modelo_final.py
 ├── 05_crear_contexto_grupos.py
+├── 06_predecir_clasificados.py
 ├── requirements.txt
 └── README.txt
 
@@ -58,7 +75,7 @@ Instalar las librerías necesarias:
 
 pip install -r requirements.txt
 
-Contenido mínimo de requirements.txt:
+Contenido del archivo requirements.txt:
 
 numpy
 pandas
@@ -68,7 +85,7 @@ matplotlib
 joblib
 
 ============================================================
-FLUJO DE EJECUCIÓN
+FLUJO DE EJECUCIÓN COMPLETO
 ============================================================
 
 1) Entrar a la carpeta del proyecto:
@@ -100,19 +117,6 @@ Genera:
 
 data/fixtures_contexto_grupos.csv
 
-Este archivo calcula variables como:
-
-- puntos actuales del grupo
-- posición actual
-- mejor posición posible
-- peor posición posible
-- si el equipo necesita ganar
-- si necesita resultado
-- si pelea el primer lugar
-- si puede caer a tercer lugar
-- si puede rotar
-- si necesita diferencia de goles
-
 5) Entrenar modelos y generar predicciones:
 
 python 02_entrenar_predecir_modelos.py
@@ -138,8 +142,6 @@ Dentro del archivo se puede cambiar:
 
 MATCH_ID = 60
 
-por el número del partido que se desea analizar.
-
 El script muestra:
 
 - partido seleccionado
@@ -163,6 +165,30 @@ Este script muestra:
 - importancia de variables si el modelo lo permite
 - ecuación o interpretación del modelo final
 
+8) Predecir clasificados a dieciseisavos:
+
+python 06_predecir_clasificados.py
+
+Este script construye la tabla final predicha de cada grupo y determina:
+
+- primeros de grupo
+- segundos de grupo
+- mejores terceros
+- clasificados a dieciseisavos
+- cruces simulados de dieciseisavos
+
+Genera:
+
+outputs/partidos_grupo_resultado_modelo.csv
+outputs/tabla_grupos_predicha.csv
+outputs/clasificados_grupos.csv
+outputs/mejores_terceros.csv
+outputs/clasificados_16avos.csv
+outputs/cruces_16avos_predichos.csv
+outputs/panel_tablas_grupos.png
+outputs/panel_clasificados_16avos.png
+outputs/panel_cruces_16avos.png
+
 ============================================================
 ORDEN CORRECTO DE EJECUCIÓN
 ============================================================
@@ -173,6 +199,7 @@ python 05_crear_contexto_grupos.py
 python 02_entrenar_predecir_modelos.py
 python 03_visualizar_partido_modelos.py
 python 04_mostrar_modelo_final.py
+python 06_predecir_clasificados.py
 
 ============================================================
 DESCRIPCIÓN DEL MODELO
@@ -191,8 +218,7 @@ Cada modelo se entrena dos veces:
 - modelo_home: predice goles del equipo local
 - modelo_away: predice goles del equipo visitante
 
-Luego, los goles esperados se transforman en probabilidades usando una matriz 
-de Poisson con ajuste Dixon-Coles.
+Luego, los goles esperados se transforman en probabilidades usando una matriz de Poisson con ajuste Dixon-Coles.
 
 ============================================================
 VARIABLES PRINCIPALES DEL MODELO BASE
@@ -214,15 +240,36 @@ Las variables principales usadas para el entrenamiento son:
 - neutral
 - home_advantage
 
-Estas variables representan forma reciente, goles, puntos, ranking FIFA, Elo, 
-historial directo y localía.
+Estas variables representan forma reciente, goles, puntos, ranking FIFA, Elo, historial directo y localía.
+
+============================================================
+COMPETENCIA DE MODELOS
+============================================================
+
+El archivo 02_entrenar_predecir_modelos.py compara varios modelos usando métricas como:
+
+- MAE
+- RMSE
+- R2
+- Accuracy del resultado H/D/A
+
+El mejor modelo se selecciona principalmente por el menor MAE promedio:
+
+MAE promedio = (MAE local + MAE visitante) / 2
+
+El modelo ganador se guarda en:
+
+outputs/mejor_modelo.txt
 
 ============================================================
 CONTEXTO COMPETITIVO
 ============================================================
 
-El contexto competitivo no se usa directamente en el entrenamiento porque la data histórica 
-no contiene esas variables.
+El contexto competitivo se calcula en:
+
+05_crear_contexto_grupos.py
+
+Este contexto no se usa directamente en el entrenamiento porque la data histórica no contiene esas variables.
 
 Se aplica como ajuste posterior sobre los goles esperados.
 
@@ -244,7 +291,40 @@ Finalmente, con las lambdas ajustadas se calculan:
 - top 10 marcadores más probables
 
 ============================================================
-EJEMPLO DE INTERPRETACIÓN DEL CONTEXTO
+VARIABLES DE CONTEXTO COMPETITIVO
+============================================================
+
+El archivo fixtures_contexto_grupos.csv incluye variables como:
+
+- puntos actuales del grupo
+- posición actual
+- mejor posición posible
+- peor posición posible
+- probabilidad de terminar en top 2
+- probabilidad de terminar primero
+- si el equipo necesita ganar
+- si necesita resultado
+- si pelea el primer lugar
+- si puede caer a tercer lugar
+- si necesita diferencia de goles
+- si puede rotar
+- nota interpretativa del contexto
+
+Ejemplos de variables:
+
+home_must_win
+away_must_win
+home_needs_result
+away_needs_result
+home_playing_for_first
+away_playing_for_first
+home_risk_drop_to_third
+away_risk_drop_to_third
+home_rotation_risk
+away_rotation_risk
+
+============================================================
+INTERPRETACIÓN DEL FACTOR CONTEXTO
 ============================================================
 
 Si un equipo necesita ganar, su factor contextual puede ser mayor que 1.
@@ -264,6 +344,62 @@ Esto significa que el contexto reduce su intensidad ofensiva por posible rotaci�
 Si no hay ajuste contextual:
 
 factor_contexto_home = 1.00
+
+============================================================
+CLASIFICACIÓN A DIECISEISAVOS
+============================================================
+
+El archivo 06_predecir_clasificados.py reconstruye la tabla final de cada grupo usando:
+
+- resultados reales si ya existen en data/results.csv
+- marcadores predichos si el partido aún no se jugó
+
+Luego ordena cada grupo y clasifica:
+
+- 12 primeros de grupo
+- 12 segundos de grupo
+- 8 mejores terceros
+
+Total:
+
+32 clasificados a dieciseisavos.
+
+============================================================
+CRITERIOS PARA ORDENAR GRUPOS Y MEJORES TERCEROS
+============================================================
+
+1. Puntos
+2. Diferencia de goles
+3. Goles a favor
+4. Fair Play
+5. Ranking FIFA
+
+============================================================
+FAIR PLAY
+============================================================
+
+El archivo opcional de Fair Play debe estar en:
+
+data/fair_play.csv
+
+Formato esperado:
+
+team,yellow_cards,indirect_red_cards,direct_red_cards,team_conduct_score,source_note
+
+Ejemplo:
+
+Spain,2,0,0,-2,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
+Uruguay,9,0,0,-9,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
+
+El modelo calcula:
+
+fair_play_score = yellow_cards*(-1) + indirect_red_cards*(-3) + direct_red_cards*(-4)
+
+Si no existe data/fair_play.csv, el script asigna:
+
+fair_play_score = 0
+
+para todos los equipos.
 
 ============================================================
 SALIDAS PRINCIPALES
@@ -287,10 +423,37 @@ Contiene los 10 marcadores más probables por partido y por modelo.
 top10_marcadores.csv:
 Contiene los 10 marcadores más probables del mejor modelo.
 
+partidos_grupo_resultado_modelo.csv:
+Contiene los marcadores usados para construir las tablas. Puede incluir partidos reales y partidos predichos.
+
+tabla_grupos_predicha.csv:
+Contiene la tabla final predicha de cada grupo.
+
+clasificados_grupos.csv:
+Contiene primeros y segundos de cada grupo.
+
+mejores_terceros.csv:
+Contiene el ranking de terceros lugares y la columna advance.
+
+clasificados_16avos.csv:
+Contiene todos los clasificados a dieciseisavos.
+
+cruces_16avos_predichos.csv:
+Contiene una simulación de los cruces de dieciseisavos.
+
+panel_tablas_grupos.png:
+Imagen con las tablas finales predichas de todos los grupos.
+
+panel_clasificados_16avos.png:
+Imagen con primeros, segundos y mejores terceros.
+
+panel_cruces_16avos.png:
+Imagen con los cruces simulados de dieciseisavos.
+
 ============================================================
 NOTA FINAL
 ============================================================
 
 El modelo no garantiza el resultado real de los partidos.
-Su objetivo es estimar probabilidades usando información histórica, forma reciente, 
-ranking, Elo, historial y contexto competitivo del grupo.
+
+Su objetivo es estimar probabilidades usando información histórica, forma reciente, ranking FIFA, Elo, historial, localía, contexto competitivo del grupo y reglas de clasificación.
