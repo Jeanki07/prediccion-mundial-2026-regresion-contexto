@@ -9,7 +9,22 @@
 > Sistema de predicción de resultados del Mundial 2026 basado en modelos de regresión y contexto competitivo
 
 ---
+# 👥 INTEGRANTES DEL PROYECTO
 
+Este proyecto fue desarrollado por el siguiente equipo:
+
+- 👤 **Integrante 1:** BUSTAMANTE VELA JEAN FRANK
+- 👤 **Integrante 2:** MARREROS CORTEGANA MIGUEL ANGEL 
+- 👤 **Integrante 3:** FERNANDEZ CAMPOS VALENTIN 
+- 👤 **Integrante 4:** SALON TRIGOSO FRANK
+- 👤 **Integrante 4:** TUESTA CHUQUIZUTA MARIA CARMEN
+  
+```
+
+```
+📌 **Curso:** Ciencia de Datos / Machine Learning  
+📌 **Proyecto:** Modelo Mundial 2026 - Predicción de resultados  
+📌 **Institución:** (agregar aquí tu universidad)
 # 📄 ABSTRACT
 
 Este proyecto construye un sistema de predicción de resultados para el Mundial 2026 basado en múltiples modelos de regresión.  
