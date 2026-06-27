@@ -1,0 +1,721 @@
+match_id,rank,home_team,away_team,score,probability_percent,result,modelo,modelo_ganador_global
+1,1,Mexico,South Africa,2-0,11.509017519488053,Victoria Mexico,Ridge,True
+1,2,Mexico,South Africa,2-1,9.73053916073126,Victoria Mexico,Ridge,True
+1,3,Mexico,South Africa,1-0,9.716043071600378,Victoria Mexico,Ridge,True
+1,4,Mexico,South Africa,1-1,9.515401592148601,Empate,Ridge,True
+1,5,Mexico,South Africa,3-0,8.473845281787625,Victoria Mexico,Ridge,True
+1,6,Mexico,South Africa,3-1,7.164389420451597,Victoria Mexico,Ridge,True
+1,7,Mexico,South Africa,0-0,5.422662521046908,Empate,Ridge,True
+1,8,Mexico,South Africa,4-0,4.679334296221606,Victoria Mexico,Ridge,True
+1,9,Mexico,South Africa,2-2,4.113443749572827,Empate,Ridge,True
+1,10,Mexico,South Africa,4-1,3.956240881416485,Victoria Mexico,Ridge,True
+2,1,South Korea,Czech Republic,1-1,10.353704304666266,Empate,Ridge,True
+2,2,South Korea,Czech Republic,2-1,9.706534448707751,Victoria South Korea,Ridge,True
+2,3,South Korea,Czech Republic,2-0,7.803912958714185,Victoria South Korea,Ridge,True
+2,4,South Korea,Czech Republic,1-0,6.94067758797732,Victoria South Korea,Ridge,True
+2,5,South Korea,Czech Republic,3-1,6.55186800073781,Victoria South Korea,Ridge,True
+2,6,South Korea,Czech Republic,2-2,6.036510882578705,Empate,Ridge,True
+2,7,South Korea,Czech Republic,1-2,5.962024959919947,Victoria Czech Republic,Ridge,True
+2,8,South Korea,Czech Republic,3-0,5.267606875031452,Victoria South Korea,Ridge,True
+2,9,South Korea,Czech Republic,0-0,4.573197326867635,Empate,Ridge,True
+2,10,South Korea,Czech Republic,3-2,4.074618258109453,Victoria South Korea,Ridge,True
+3,1,Canada,Bosnia and Herzegovina,1-1,10.225618328811226,Empate,Ridge,True
+3,2,Canada,Bosnia and Herzegovina,2-1,9.918155837371948,Victoria Canada,Ridge,True
+3,3,Canada,Bosnia and Herzegovina,2-0,9.303012999686471,Victoria Canada,Ridge,True
+3,4,Canada,Bosnia and Herzegovina,1-0,8.123478349916878,Victoria Canada,Ridge,True
+3,5,Canada,Bosnia and Herzegovina,3-1,6.926355421931582,Victoria Canada,Ridge,True
+3,6,Canada,Bosnia and Herzegovina,3-0,6.496769720826672,Victoria Canada,Ridge,True
+3,7,Canada,Bosnia and Herzegovina,2-2,5.2869868728395035,Empate,Ridge,True
+3,8,Canada,Bosnia and Herzegovina,1-2,5.04711415269712,Victoria Bosnia and Herzegovina,Ridge,True
+3,9,Canada,Bosnia and Herzegovina,0-0,4.996453271480816,Empate,Ridge,True
+3,10,Canada,Bosnia and Herzegovina,0-1,3.7618421209454107,Victoria Bosnia and Herzegovina,Ridge,True
+4,1,United States,Paraguay,2-0,10.387230297049133,Victoria United States,Ridge,True
+4,2,United States,Paraguay,1-1,10.353634088757262,Empate,Ridge,True
+4,3,United States,Paraguay,2-1,9.937866315260193,Victoria United States,Ridge,True
+4,4,United States,Paraguay,1-0,9.253247463404847,Victoria United States,Ridge,True
+4,5,United States,Paraguay,3-0,7.17848165571062,Victoria United States,Ridge,True
+4,6,United States,Paraguay,3-1,6.867931970398898,Victoria United States,Ridge,True
+4,7,United States,Paraguay,0-0,5.599989084926592,Empate,Ridge,True
+4,8,United States,Paraguay,2-2,4.753971177862487,Empate,Ridge,True
+4,9,United States,Paraguay,1-2,4.585983110667825,Victoria Paraguay,Ridge,True
+4,10,United States,Paraguay,0-1,3.8570337163253283,Victoria Paraguay,Ridge,True
+5,1,Qatar,Switzerland,0-1,12.72758174500079,Victoria Switzerland,Ridge,True
+5,2,Qatar,Switzerland,0-2,12.691052953598422,Victoria Switzerland,Ridge,True
+5,3,Qatar,Switzerland,1-1,11.020725707145239,Empate,Ridge,True
+5,4,Qatar,Switzerland,1-2,9.56179296606141,Victoria Switzerland,Ridge,True
+5,5,Qatar,Switzerland,0-0,8.043413449044404,Empate,Ridge,True
+5,6,Qatar,Switzerland,0-3,7.927920659994914,Victoria Switzerland,Ridge,True
+5,7,Qatar,Switzerland,1-3,5.973116358382107,Victoria Switzerland,Ridge,True
+5,8,Qatar,Switzerland,1-0,4.628720912506865,Victoria Qatar,Ridge,True
+5,9,Qatar,Switzerland,2-1,3.844130495535681,Victoria Qatar,Ridge,True
+5,10,Qatar,Switzerland,0-4,3.7143446383631105,Victoria Switzerland,Ridge,True
+6,1,Brazil,Morocco,1-1,12.358359490392958,Empate,Ridge,True
+6,2,Brazil,Morocco,2-1,9.409040246939666,Victoria Brazil,Ridge,True
+6,3,Brazil,Morocco,1-0,8.479419323550513,Victoria Brazil,Ridge,True
+6,4,Brazil,Morocco,2-0,7.72499600141562,Victoria Brazil,Ridge,True
+6,5,Brazil,Morocco,1-2,6.968737985127875,Victoria Morocco,Ridge,True
+6,6,Brazil,Morocco,0-0,6.628269980667471,Empate,Ridge,True
+6,7,Brazil,Morocco,0-1,6.042796532936754,Victoria Morocco,Ridge,True
+6,8,Brazil,Morocco,2-2,5.730102536772004,Empate,Ridge,True
+6,9,Brazil,Morocco,3-1,5.157774191217928,Victoria Brazil,Ridge,True
+6,10,Brazil,Morocco,0-2,4.237560217615387,Victoria Morocco,Ridge,True
+7,1,Haiti,Scotland,1-1,11.543605614213355,Empate,Ridge,True
+7,2,Haiti,Scotland,1-2,9.892006149183992,Victoria Scotland,Ridge,True
+7,3,Haiti,Scotland,0-2,9.488089762517802,Victoria Scotland,Ridge,True
+7,4,Haiti,Scotland,0-1,9.397001545075115,Victoria Scotland,Ridge,True
+7,5,Haiti,Scotland,0-0,6.393879355065134,Empate,Ridge,True
+7,6,Haiti,Scotland,1-3,6.103230483308285,Victoria Scotland,Ridge,True
+7,7,Haiti,Scotland,0-3,5.854019679490478,Victoria Scotland,Ridge,True
+7,8,Haiti,Scotland,2-1,5.57177182021424,Victoria Haiti,Ridge,True
+7,9,Haiti,Scotland,2-2,5.156558807129559,Empate,Ridge,True
+7,10,Haiti,Scotland,1-0,4.919507074949121,Victoria Haiti,Ridge,True
+8,1,Australia,Turkey,1-1,10.556255583359988,Empate,Ridge,True
+8,2,Australia,Turkey,2-1,9.935187557794709,Victoria Australia,Ridge,True
+8,3,Australia,Turkey,2-0,9.299403469147862,Victoria Australia,Ridge,True
+8,4,Australia,Turkey,1-0,8.366876796213916,Victoria Australia,Ridge,True
+8,5,Australia,Turkey,3-1,6.732474857296064,Victoria Australia,Ridge,True
+8,6,Australia,Turkey,3-0,6.301642488346412,Victoria Australia,Ridge,True
+8,7,Australia,Turkey,2-2,5.307219551019427,Empate,Ridge,True
+8,8,Australia,Turkey,0-0,5.282283935624041,Empate,Ridge,True
+8,9,Australia,Turkey,1-2,5.221281699763132,Victoria Turkey,Ridge,True
+8,10,Australia,Turkey,0-1,4.026074598053548,Victoria Turkey,Ridge,True
+9,1,Germany,Curacao,3-0,11.853129985237834,Victoria Germany,Ridge,True
+9,2,Germany,Curacao,2-0,10.801516799789363,Victoria Germany,Ridge,True
+9,3,Germany,Curacao,4-0,9.755344530618428,Victoria Germany,Ridge,True
+9,4,Germany,Curacao,3-1,7.469034018580172,Victoria Germany,Ridge,True
+9,5,Germany,Curacao,2-1,6.8063791193017265,Victoria Germany,Ridge,True
+9,6,Germany,Curacao,5-0,6.423062737325233,Victoria Germany,Ridge,True
+9,7,Germany,Curacao,1-0,6.231334555619994,Victoria Germany,Ridge,True
+9,8,Germany,Curacao,4-1,6.147152714338267,Victoria Germany,Ridge,True
+9,9,Germany,Curacao,1-1,4.465810913741241,Empate,Ridge,True
+9,10,Germany,Curacao,5-1,4.047376022055345,Victoria Germany,Ridge,True
+10,1,Netherlands,Japan,2-1,9.537851099785154,Victoria Netherlands,Ridge,True
+10,2,Netherlands,Japan,1-1,8.622941514738635,Empate,Ridge,True
+10,3,Netherlands,Japan,2-0,8.289561722089047,Victoria Netherlands,Ridge,True
+10,4,Netherlands,Japan,3-1,7.5958806494572135,Victoria Netherlands,Ridge,True
+10,5,Netherlands,Japan,3-0,6.6017513608191845,Victoria Netherlands,Ridge,True
+10,6,Netherlands,Japan,1-0,6.300516504715382,Victoria Netherlands,Ridge,True
+10,7,Netherlands,Japan,2-2,5.487057497820734,Empate,Ridge,True
+10,8,Netherlands,Japan,1-2,4.593256073510808,Victoria Japan,Ridge,True
+10,9,Netherlands,Japan,4-1,4.5369813051048435,Victoria Netherlands,Ridge,True
+10,10,Netherlands,Japan,3-2,4.369855791845448,Victoria Netherlands,Ridge,True
+11,1,Ivory Coast,Ecuador,1-1,14.164478382530257,Empate,Ridge,True
+11,2,Ivory Coast,Ecuador,1-0,10.588302659515232,Victoria Ivory Coast,Ridge,True
+11,3,Ivory Coast,Ecuador,0-0,10.47089696519857,Empate,Ridge,True
+11,4,Ivory Coast,Ecuador,0-1,9.568821622574621,Victoria Ecuador,Ridge,True
+11,5,Ivory Coast,Ecuador,2-1,8.099891778944336,Victoria Ivory Coast,Ridge,True
+11,6,Ivory Coast,Ecuador,1-2,7.390317596284546,Victoria Ecuador,Ridge,True
+11,7,Ivory Coast,Ecuador,2-0,7.187253263333668,Victoria Ivory Coast,Ridge,True
+11,8,Ivory Coast,Ecuador,0-2,5.983161433547437,Victoria Ecuador,Ridge,True
+11,9,Ivory Coast,Ecuador,2-2,4.564208636233513,Empate,Ridge,True
+11,10,Ivory Coast,Ecuador,3-1,3.3349578037621272,Victoria Ivory Coast,Ridge,True
+12,1,Sweden,Tunisia,1-1,9.777996900649487,Empate,Ridge,True
+12,2,Sweden,Tunisia,2-1,8.296583161642323,Victoria Sweden,Ridge,True
+12,3,Sweden,Tunisia,1-2,7.760063309492153,Victoria Tunisia,Ridge,True
+12,4,Sweden,Tunisia,2-2,7.111126352385866,Empate,Ridge,True
+12,5,Sweden,Tunisia,3-1,5.068519744621911,Victoria Sweden,Ridge,True
+12,6,Sweden,Tunisia,2-0,4.839830481633374,Victoria Sweden,Ridge,True
+12,7,Sweden,Tunisia,1-0,4.557200715026971,Victoria Sweden,Ridge,True
+12,8,Sweden,Tunisia,1-3,4.43417807236112,Victoria Tunisia,Ridge,True
+12,9,Sweden,Tunisia,3-2,4.344304591582518,Victoria Sweden,Ridge,True
+12,10,Sweden,Tunisia,0-2,4.234110011779095,Victoria Tunisia,Ridge,True
+13,1,Spain,Cape Verde,3-0,10.148742358132774,Victoria Spain,Ridge,True
+13,2,Spain,Cape Verde,2-0,9.081553115194865,Victoria Spain,Ridge,True
+13,3,Spain,Cape Verde,4-0,8.506004161289457,Victoria Spain,Ridge,True
+13,4,Spain,Cape Verde,3-1,7.919255304361863,Victoria Spain,Ridge,True
+13,5,Spain,Cape Verde,2-1,7.086507385983443,Victoria Spain,Ridge,True
+13,6,Spain,Cape Verde,4-1,6.637395668955491,Victoria Spain,Ridge,True
+13,7,Spain,Cape Verde,5-0,5.703335782006025,Victoria Spain,Ridge,True
+13,8,Spain,Cape Verde,1-0,5.079518545072228,Victoria Spain,Ridge,True
+13,9,Spain,Cape Verde,1-1,4.5657553900093735,Empate,Ridge,True
+13,10,Spain,Cape Verde,5-1,4.450420608816989,Victoria Spain,Ridge,True
+14,1,Belgium,Egypt,2-0,9.901202802244793,Victoria Belgium,Ridge,True
+14,2,Belgium,Egypt,2-1,9.64282813190895,Victoria Belgium,Ridge,True
+14,3,Belgium,Egypt,1-1,8.740355321382284,Empate,Ridge,True
+14,4,Belgium,Egypt,3-0,7.864946819165255,Victoria Belgium,Ridge,True
+14,5,Belgium,Egypt,1-0,7.662333580116649,Victoria Belgium,Ridge,True
+14,6,Belgium,Egypt,3-1,7.659708821095967,Victoria Belgium,Ridge,True
+14,7,Belgium,Egypt,2-2,4.695597910612103,Empate,Ridge,True
+14,8,Belgium,Egypt,4-0,4.685596515678384,Victoria Belgium,Ridge,True
+14,9,Belgium,Egypt,4-1,4.563324557488548,Victoria Belgium,Ridge,True
+14,10,Belgium,Egypt,0-0,4.134496566543954,Empate,Ridge,True
+15,1,Saudi Arabia,Uruguay,0-1,23.293947520314017,Victoria Uruguay,Ridge,True
+15,2,Saudi Arabia,Uruguay,0-2,20.971155064337786,Victoria Uruguay,Ridge,True
+15,3,Saudi Arabia,Uruguay,0-0,13.906108087405169,Empate,Ridge,True
+15,4,Saudi Arabia,Uruguay,0-3,12.344592705646273,Victoria Uruguay,Ridge,True
+15,5,Saudi Arabia,Uruguay,1-1,6.166353698370013,Empate,Ridge,True
+15,6,Saudi Arabia,Uruguay,0-4,5.449949058627608,Victoria Uruguay,Ridge,True
+15,7,Saudi Arabia,Uruguay,1-2,5.041390626248822,Victoria Uruguay,Ridge,True
+15,8,Saudi Arabia,Uruguay,1-3,2.967595907816053,Victoria Uruguay,Ridge,True
+15,9,Saudi Arabia,Uruguay,1-0,2.776406538790652,Victoria Saudi Arabia,Ridge,True
+15,10,Saudi Arabia,Uruguay,0-5,1.9248553889056637,Victoria Uruguay,Ridge,True
+16,1,Iran,New Zealand,2-0,10.919919063474893,Victoria Iran,Ridge,True
+16,2,Iran,New Zealand,2-1,9.707657933764018,Victoria Iran,Ridge,True
+16,3,Iran,New Zealand,1-1,9.150980167108747,Empate,Ridge,True
+16,4,Iran,New Zealand,1-0,8.85337662286258,Victoria Iran,Ridge,True
+16,5,Iran,New Zealand,3-0,8.340628286553157,Victoria Iran,Ridge,True
+16,6,Iran,New Zealand,3-1,7.4147038900093305,Victoria Iran,Ridge,True
+16,7,Iran,New Zealand,0-0,4.837418219490044,Empate,Ridge,True
+16,8,Iran,New Zealand,4-0,4.777925537502585,Victoria Iran,Ridge,True
+16,9,Iran,New Zealand,2-2,4.314987227065731,Empate,Ridge,True
+16,10,Iran,New Zealand,4-1,4.247510121774751,Victoria Iran,Ridge,True
+17,1,France,Senegal,2-1,9.616452684312629,Victoria France,Ridge,True
+17,2,France,Senegal,1-1,9.159225371907224,Empate,Ridge,True
+17,3,France,Senegal,2-0,7.9638005512579655,Victoria France,Ridge,True
+17,4,France,Senegal,3-1,7.269483400806898,Victoria France,Ridge,True
+17,5,France,Senegal,1-0,6.3448266674562435,Victoria France,Ridge,True
+17,6,France,Senegal,3-0,6.020173739236227,Victoria France,Ridge,True
+17,7,France,Senegal,2-2,5.80603203422868,Empate,Ridge,True
+17,8,France,Senegal,1-2,5.120348472498619,Victoria Senegal,Ridge,True
+17,9,France,Senegal,3-2,4.3890252344537375,Victoria France,Ridge,True
+17,10,France,Senegal,4-1,4.121482524487486,Victoria France,Ridge,True
+18,1,Iraq,Norway,1-2,9.80193160821178,Victoria Norway,Ridge,True
+18,2,Iraq,Norway,0-2,9.78488629608422,Victoria Norway,Ridge,True
+18,3,Iraq,Norway,1-1,9.341496753621959,Empate,Ridge,True
+18,4,Iraq,Norway,0-1,7.942529986867669,Victoria Norway,Ridge,True
+18,5,Iraq,Norway,1-3,7.405243866799248,Victoria Norway,Ridge,True
+18,6,Iraq,Norway,0-3,7.392366334274482,Victoria Norway,Ridge,True
+18,7,Iraq,Norway,2-2,4.909503306671546,Empate,Ridge,True
+18,8,Iraq,Norway,0-0,4.501637259934824,Empate,Ridge,True
+18,9,Iraq,Norway,2-1,4.332300777474511,Victoria Iraq,Ridge,True
+18,10,Iraq,Norway,1-4,4.195930882706814,Victoria Norway,Ridge,True
+19,1,Argentina,Algeria,2-0,14.344407205248968,Victoria Argentina,Ridge,True
+19,2,Argentina,Algeria,3-0,11.746060617841234,Victoria Argentina,Ridge,True
+19,3,Argentina,Algeria,1-0,11.126544085728469,Victoria Argentina,Ridge,True
+19,4,Argentina,Algeria,2-1,8.472314317184447,Victoria Argentina,Ridge,True
+19,5,Argentina,Algeria,1-1,7.449462245530363,Empate,Ridge,True
+19,6,Argentina,Algeria,4-0,7.2137839889706745,Victoria Argentina,Ridge,True
+19,7,Argentina,Algeria,3-1,6.937638908259465,Victoria Argentina,Ridge,True
+19,8,Argentina,Algeria,0-0,5.305720609124659,Empate,Ridge,True
+19,9,Argentina,Algeria,4-1,4.260716005640707,Victoria Argentina,Ridge,True
+19,10,Argentina,Algeria,5-0,3.544247293291676,Victoria Argentina,Ridge,True
+20,1,Austria,Jordan,2-0,11.794691291540493,Victoria Austria,Ridge,True
+20,2,Austria,Jordan,3-0,10.326062214618915,Victoria Austria,Ridge,True
+20,3,Austria,Jordan,2-1,8.855244632298003,Victoria Austria,Ridge,True
+20,4,Austria,Jordan,1-0,8.442014636047121,Victoria Austria,Ridge,True
+20,5,Austria,Jordan,3-1,7.752624018600873,Victoria Austria,Ridge,True
+20,6,Austria,Jordan,1-1,7.282573908264407,Empate,Ridge,True
+20,7,Austria,Jordan,4-0,6.780225837915122,Victoria Austria,Ridge,True
+20,8,Austria,Jordan,4-1,5.090473075800552,Victoria Austria,Ridge,True
+20,9,Austria,Jordan,0-0,3.9590691173784753,Empate,Ridge,True
+20,10,Austria,Jordan,5-0,3.561587095460158,Victoria Austria,Ridge,True
+21,1,Portugal,DR Congo,2-0,9.423505762677928,Victoria Portugal,Ridge,True
+21,2,Portugal,DR Congo,2-1,9.162462615380722,Victoria Portugal,Ridge,True
+21,3,Portugal,DR Congo,3-0,8.289050671236,Victoria Portugal,Ridge,True
+21,4,Portugal,DR Congo,3-1,8.059433379134873,Victoria Portugal,Ridge,True
+21,5,Portugal,DR Congo,1-1,7.499847247924994,Empate,Ridge,True
+21,6,Portugal,DR Congo,1-0,6.5866054362454225,Victoria Portugal,Ridge,True
+21,7,Portugal,DR Congo,4-0,5.468375790337985,Victoria Portugal,Ridge,True
+21,8,Portugal,DR Congo,4-1,5.316894795593199,Victoria Portugal,Ridge,True
+21,9,Portugal,DR Congo,2-2,4.454325348361256,Empate,Ridge,True
+21,10,Portugal,DR Congo,3-2,3.91808838967007,Victoria Portugal,Ridge,True
+22,1,England,Croatia,2-1,9.703402790834248,Victoria England,Ridge,True
+22,2,England,Croatia,2-0,9.68536840733844,Victoria England,Ridge,True
+22,3,England,Croatia,1-1,8.941811501019641,Empate,Ridge,True
+22,4,England,Croatia,1-0,7.601710798782491,Victoria England,Ridge,True
+22,5,England,Croatia,3-1,7.581499398808833,Victoria England,Ridge,True
+22,6,England,Croatia,3-0,7.567408706030367,Victoria England,Ridge,True
+22,7,England,Croatia,2-2,4.860735377387888,Empate,Ridge,True
+22,8,England,Croatia,4-1,4.442704356385653,Victoria England,Ridge,True
+22,9,England,Croatia,4-0,4.4344473113212945,Victoria England,Ridge,True
+22,10,England,Croatia,0-0,4.1880254330372875,Empate,Ridge,True
+23,1,Ghana,Panama,1-1,12.955921414827804,Empate,Ridge,True
+23,2,Ghana,Panama,1-2,9.076897591583666,Victoria Panama,Ridge,True
+23,3,Ghana,Panama,0-1,8.852864944692,Victoria Panama,Ridge,True
+23,4,Ghana,Panama,0-0,7.4439451659978655,Empate,Ridge,True
+23,5,Ghana,Panama,0-2,7.424638900292048,Victoria Panama,Ridge,True
+23,6,Ghana,Panama,2-1,7.332915038041634,Victoria Ghana,Ridge,True
+23,7,Ghana,Panama,1-0,6.967535931818179,Victoria Ghana,Ridge,True
+23,8,Ghana,Panama,2-2,5.548422690621126,Empate,Ridge,True
+23,9,Ghana,Panama,2-0,4.845669296792308,Victoria Ghana,Ridge,True
+23,10,Ghana,Panama,1-3,4.578667037262091,Victoria Panama,Ridge,True
+24,1,Uzbekistan,Colombia,0-1,13.65348140415104,Victoria Colombia,Ridge,True
+24,2,Uzbekistan,Colombia,0-2,12.971164222281145,Victoria Colombia,Ridge,True
+24,3,Uzbekistan,Colombia,1-1,11.329538723569502,Empate,Ridge,True
+24,4,Uzbekistan,Colombia,1-2,9.388969612058785,Victoria Colombia,Ridge,True
+24,5,Uzbekistan,Colombia,0-0,8.935589377782359,Empate,Ridge,True
+24,6,Uzbekistan,Colombia,0-3,7.7395758269591095,Victoria Colombia,Ridge,True
+24,7,Uzbekistan,Colombia,1-3,5.602168086402075,Victoria Colombia,Ridge,True
+24,8,Uzbekistan,Colombia,1-0,5.0211986120895835,Victoria Uzbekistan,Ridge,True
+24,9,Uzbekistan,Colombia,2-1,3.796622810133105,Victoria Uzbekistan,Ridge,True
+24,10,Uzbekistan,Colombia,0-4,3.4635114255022956,Victoria Colombia,Ridge,True
+25,1,Czech Republic,South Africa,1-1,9.490844975845986,Empate,Ridge,True
+25,2,Czech Republic,South Africa,2-1,9.40668391039797,Victoria Czech Republic,Ridge,True
+25,3,Czech Republic,South Africa,2-0,6.915844580234482,Victoria Czech Republic,Ridge,True
+25,4,Czech Republic,South Africa,3-1,6.712753789471935,Victoria Czech Republic,Ridge,True
+25,5,Czech Republic,South Africa,2-2,6.397317143522327,Empate,Ridge,True
+25,6,Czech Republic,South Africa,1-2,5.976438496132051,Victoria South Africa,Ridge,True
+25,7,Czech Republic,South Africa,1-0,5.757826527708261,Victoria Czech Republic,Ridge,True
+25,8,Czech Republic,South Africa,3-0,4.935252673054248,Victoria Czech Republic,Ridge,True
+25,9,Czech Republic,South Africa,3-2,4.565223548137324,Victoria Czech Republic,Ridge,True
+25,10,Czech Republic,South Africa,0-0,3.720922293232988,Empate,Ridge,True
+26,1,Switzerland,Bosnia and Herzegovina,2-0,9.787713738732434,Victoria Switzerland,Ridge,True
+26,2,Switzerland,Bosnia and Herzegovina,2-1,9.754115727878258,Victoria Switzerland,Ridge,True
+26,3,Switzerland,Bosnia and Herzegovina,1-1,9.136210682560215,Empate,Ridge,True
+26,4,Switzerland,Bosnia and Herzegovina,1-0,7.811836543947881,Victoria Switzerland,Ridge,True
+26,5,Switzerland,Bosnia and Herzegovina,3-0,7.523770740625524,Victoria Switzerland,Ridge,True
+26,6,Switzerland,Bosnia and Herzegovina,3-1,7.497944103501111,Victoria Switzerland,Ridge,True
+26,7,Switzerland,Bosnia and Herzegovina,2-2,4.860316523987527,Empate,Ridge,True
+26,8,Switzerland,Bosnia and Herzegovina,0-0,4.357708364316071,Empate,Ridge,True
+26,9,Switzerland,Bosnia and Herzegovina,4-0,4.337616092112821,Victoria Switzerland,Ridge,True
+26,10,Switzerland,Bosnia and Herzegovina,4-1,4.322726478824752,Victoria Switzerland,Ridge,True
+27,1,Canada,Qatar,1-1,10.691134483414578,Empate,Ridge,True
+27,2,Canada,Qatar,2-1,9.936777537904447,Victoria Canada,Ridge,True
+27,3,Canada,Qatar,2-0,9.29138707052107,Victoria Canada,Ridge,True
+27,4,Canada,Qatar,1-0,8.464312980773945,Victoria Canada,Ridge,True
+27,5,Canada,Qatar,3-1,6.649666090488831,Victoria Canada,Ridge,True
+27,6,Canada,Qatar,3-0,6.217772441897697,Victoria Canada,Ridge,True
+27,7,Canada,Qatar,0-0,5.402557663725581,Empate,Ridge,True
+27,8,Canada,Qatar,2-2,5.313498785938802,Empate,Ridge,True
+27,9,Canada,Qatar,1-2,5.2934041765213795,Victoria Qatar,Ridge,True
+27,10,Canada,Qatar,0-1,4.13894499723308,Victoria Qatar,Ridge,True
+28,1,Mexico,South Korea,1-1,12.28286906725374,Empate,Ridge,True
+28,2,Mexico,South Korea,2-1,9.560345614405314,Victoria Mexico,Ridge,True
+28,3,Mexico,South Korea,1-0,8.851725083139476,Victoria Mexico,Ridge,True
+28,4,Mexico,South Korea,2-0,8.205727219469978,Victoria Mexico,Ridge,True
+28,5,Mexico,South Korea,0-0,6.716042649419536,Empate,Ridge,True
+28,6,Mexico,South Korea,1-2,6.625254841701919,Victoria South Korea,Ridge,True
+28,7,Mexico,South Korea,0-1,5.8548579113996535,Victoria South Korea,Ridge,True
+28,8,Mexico,South Korea,2-2,5.569293605691087,Empate,Ridge,True
+28,9,Mexico,South Korea,3-1,5.357718102491061,Victoria Mexico,Ridge,True
+28,10,Mexico,South Korea,3-0,4.5985757252974215,Victoria Mexico,Ridge,True
+29,1,United States,Australia,1-1,11.019635295344028,Empate,Ridge,True
+29,2,United States,Australia,2-1,9.521071446239482,Victoria United States,Ridge,True
+29,3,United States,Australia,2-0,7.260773068087858,Victoria United States,Ridge,True
+29,4,United States,Australia,1-0,6.964821909924809,Victoria United States,Ridge,True
+29,5,United States,Australia,1-2,6.68985078464824,Victoria Australia,Ridge,True
+29,6,United States,Australia,2-2,6.242503424519634,Empate,Ridge,True
+29,7,United States,Australia,3-1,5.922934409303244,Victoria United States,Ridge,True
+29,8,United States,Australia,0-0,4.985617335114415,Empate,Ridge,True
+29,9,United States,Australia,0-1,4.651008147025277,Victoria Australia,Ridge,True
+29,10,United States,Australia,3-0,4.516832258422501,Victoria United States,Ridge,True
+30,1,Scotland,Morocco,0-2,15.902654486798973,Victoria Morocco,Ridge,True
+30,2,Scotland,Morocco,0-1,14.019588074680101,Victoria Morocco,Ridge,True
+30,3,Scotland,Morocco,0-3,11.520530005804888,Victoria Morocco,Ridge,True
+30,4,Scotland,Morocco,1-2,8.351429717490436,Victoria Morocco,Ridge,True
+30,5,Scotland,Morocco,1-1,8.300236956529229,Empate,Ridge,True
+30,6,Scotland,Morocco,0-0,7.348496292441729,Empate,Ridge,True
+30,7,Scotland,Morocco,0-4,6.259455538923979,Victoria Morocco,Ridge,True
+30,8,Scotland,Morocco,1-3,6.050115515720156,Victoria Morocco,Ridge,True
+30,9,Scotland,Morocco,1-4,3.287212398815205,Victoria Morocco,Ridge,True
+30,10,Scotland,Morocco,1-0,2.921415059966595,Victoria Scotland,Ridge,True
+31,1,Brazil,Haiti,3-0,15.335267699786115,Victoria Brazil,Ridge,True
+31,2,Brazil,Haiti,2-0,14.719153692887954,Victoria Brazil,Ridge,True
+31,3,Brazil,Haiti,4-0,11.982878244779812,Victoria Brazil,Ridge,True
+31,4,Brazil,Haiti,1-0,9.131090592621913,Victoria Brazil,Ridge,True
+31,5,Brazil,Haiti,5-0,7.490674377009802,Victoria Brazil,Ridge,True
+31,6,Brazil,Haiti,3-1,5.850088863444007,Victoria Brazil,Ridge,True
+31,7,Brazil,Haiti,2-1,5.615054056036175,Victoria Brazil,Ridge,True
+31,8,Brazil,Haiti,4-1,4.571221314432586,Victoria Brazil,Ridge,True
+31,9,Brazil,Haiti,6-0,3.902109428984282,Victoria Brazil,Ridge,True
+31,10,Brazil,Haiti,1-1,3.8804126924365736,Empate,Ridge,True
+32,1,Turkey,Paraguay,1-1,11.681205826094605,Empate,Ridge,True
+32,2,Turkey,Paraguay,2-1,8.944827861769191,Victoria Turkey,Ridge,True
+32,3,Turkey,Paraguay,1-2,7.753028084947526,Victoria Paraguay,Ridge,True
+32,4,Turkey,Paraguay,1-0,6.679156460374459,Victoria Turkey,Ridge,True
+32,5,Turkey,Paraguay,2-2,6.411791973581178,Empate,Ridge,True
+32,6,Turkey,Paraguay,2-0,6.239281140619607,Victoria Turkey,Ridge,True
+32,7,Turkey,Paraguay,0-1,5.673944143213098,Victoria Paraguay,Ridge,True
+32,8,Turkey,Paraguay,0-0,5.426572299251905,Empate,Ridge,True
+32,9,Turkey,Paraguay,3-1,4.931610794368752,Victoria Turkey,Ridge,True
+32,10,Turkey,Paraguay,0-2,4.687413809872262,Victoria Paraguay,Ridge,True
+33,1,Netherlands,Sweden,2-1,8.296150371507691,Victoria Netherlands,Ridge,True
+33,2,Netherlands,Sweden,3-1,8.071511240919591,Victoria Netherlands,Ridge,True
+33,3,Netherlands,Sweden,2-0,6.744836259924074,Victoria Netherlands,Ridge,True
+33,4,Netherlands,Sweden,3-0,6.562202859426408,Victoria Netherlands,Ridge,True
+33,5,Netherlands,Sweden,1-1,6.139469850351665,Empate,Ridge,True
+33,6,Netherlands,Sweden,4-1,5.889716084707201,Victoria Netherlands,Ridge,True
+33,7,Netherlands,Sweden,2-2,5.102133568135127,Empate,Ridge,True
+33,8,Netherlands,Sweden,3-2,4.96398047331822,Victoria Netherlands,Ridge,True
+33,9,Netherlands,Sweden,4-0,4.788386038086213,Victoria Netherlands,Ridge,True
+33,10,Netherlands,Sweden,1-0,4.1669261561850535,Victoria Netherlands,Ridge,True
+34,1,Germany,Ivory Coast,2-1,8.876703371199076,Victoria Germany,Ridge,True
+34,2,Germany,Ivory Coast,3-1,8.057047952332788,Victoria Germany,Ridge,True
+34,3,Germany,Ivory Coast,2-0,7.675835625415771,Victoria Germany,Ridge,True
+34,4,Germany,Ivory Coast,1-1,7.0414153556773815,Empate,Ridge,True
+34,5,Germany,Ivory Coast,3-0,6.967065713703708,Victoria Germany,Ridge,True
+34,6,Germany,Ivory Coast,4-1,5.4848082946660135,Victoria Germany,Ridge,True
+34,7,Germany,Ivory Coast,2-2,5.132722128607915,Empate,Ridge,True
+34,8,Germany,Ivory Coast,1-0,5.116220177207296,Victoria Germany,Ridge,True
+34,9,Germany,Ivory Coast,4-0,4.7428065517397515,Victoria Germany,Ridge,True
+34,10,Germany,Ivory Coast,3-2,4.6587777676981625,Victoria Germany,Ridge,True
+35,1,Ecuador,Curacao,3-0,14.838593499537522,Victoria Ecuador,Ridge,True
+35,2,Ecuador,Curacao,2-0,13.568909546409744,Victoria Ecuador,Ridge,True
+35,3,Ecuador,Curacao,4-0,12.170314218586748,Victoria Ecuador,Ridge,True
+35,4,Ecuador,Curacao,1-0,8.003016792254288,Victoria Ecuador,Ridge,True
+35,5,Ecuador,Curacao,5-0,7.9854764231529725,Victoria Ecuador,Ridge,True
+35,6,Ecuador,Curacao,3-1,6.02947758261316,Victoria Ecuador,Ridge,True
+35,7,Ecuador,Curacao,2-1,5.513557328269229,Victoria Ecuador,Ridge,True
+35,8,Ecuador,Curacao,4-1,4.9452555430279865,Victoria Ecuador,Ridge,True
+35,9,Ecuador,Curacao,6-0,4.366350816107413,Victoria Ecuador,Ridge,True
+35,10,Ecuador,Curacao,1-1,3.6300833823208563,Empate,Ridge,True
+36,1,Tunisia,Japan,0-2,10.513058927184884,Victoria Japan,Ridge,True
+36,2,Tunisia,Japan,1-2,9.460185173442747,Victoria Japan,Ridge,True
+36,3,Tunisia,Japan,0-3,8.637743523917118,Victoria Japan,Ridge,True
+36,4,Tunisia,Japan,1-1,8.29012211567441,Empate,Ridge,True
+36,5,Tunisia,Japan,0-1,7.916262620148555,Victoria Japan,Ridge,True
+36,6,Tunisia,Japan,1-3,7.772680984947436,Victoria Japan,Ridge,True
+36,7,Tunisia,Japan,0-4,5.3227096201308095,Victoria Japan,Ridge,True
+36,8,Tunisia,Japan,1-4,4.789644857853563,Victoria Japan,Ridge,True
+36,9,Tunisia,Japan,2-2,4.256377907499774,Empate,Ridge,True
+36,10,Tunisia,Japan,0-0,4.074864560409564,Empate,Ridge,True
+37,1,Spain,Saudi Arabia,3-0,13.902104998174938,Victoria Spain,Ridge,True
+37,2,Spain,Saudi Arabia,2-0,12.674100125984758,Victoria Spain,Ridge,True
+37,3,Spain,Saudi Arabia,4-0,11.436819268772187,Victoria Spain,Ridge,True
+37,4,Spain,Saudi Arabia,5-0,7.526965736698451,Victoria Spain,Ridge,True
+37,5,Spain,Saudi Arabia,1-0,7.412924096356649,Victoria Spain,Ridge,True
+37,6,Spain,Saudi Arabia,3-1,6.544966069131468,Victoria Spain,Ridge,True
+37,7,Spain,Saudi Arabia,2-1,5.9668341803083,Victoria Spain,Ridge,True
+37,8,Spain,Saudi Arabia,4-1,5.3843352544618,Victoria Spain,Ridge,True
+37,9,Spain,Saudi Arabia,6-0,4.128130082178777,Victoria Spain,Ridge,True
+37,10,Spain,Saudi Arabia,1-1,3.916634406756281,Empate,Ridge,True
+38,1,Belgium,Iran,2-1,9.72400807296693,Victoria Belgium,Ridge,True
+38,2,Belgium,Iran,1-1,9.482074561142369,Empate,Ridge,True
+38,3,Belgium,Iran,2-0,8.290793885530443,Victoria Belgium,Ridge,True
+38,4,Belgium,Iran,3-1,7.179922423437331,Victoria Belgium,Ridge,True
+38,5,Belgium,Iran,1-0,6.783289635133989,Victoria Belgium,Ridge,True
+38,6,Belgium,Iran,3-0,6.121679093655312,Victoria Belgium,Ridge,True
+38,7,Belgium,Iran,2-2,5.702489671595324,Empate,Ridge,True
+38,8,Belgium,Iran,1-2,5.1487144597918695,Victoria Iran,Ridge,True
+38,9,Belgium,Iran,3-2,4.210551159077209,Victoria Belgium,Ridge,True
+38,10,Belgium,Iran,0-0,4.081737941191603,Empate,Ridge,True
+39,1,Uruguay,Cape Verde,2-0,14.187312518252368,Victoria Uruguay,Ridge,True
+39,2,Uruguay,Cape Verde,1-0,12.843276302265666,Victoria Uruguay,Ridge,True
+39,3,Uruguay,Cape Verde,3-0,9.909641478877937,Victoria Uruguay,Ridge,True
+39,4,Uruguay,Cape Verde,1-1,9.419409412954574,Empate,Ridge,True
+39,5,Uruguay,Cape Verde,2-1,9.137954354272873,Victoria Uruguay,Ridge,True
+39,6,Uruguay,Cape Verde,0-0,7.1598092332954,Empate,Ridge,True
+39,7,Uruguay,Cape Verde,3-1,6.382734671185659,Victoria Uruguay,Ridge,True
+39,8,Uruguay,Cape Verde,4-0,5.191310587200349,Victoria Uruguay,Ridge,True
+39,9,Uruguay,Cape Verde,0-1,3.464445956652048,Victoria Cape Verde,Ridge,True
+39,10,Uruguay,Cape Verde,4-1,3.3436888856617526,Victoria Uruguay,Ridge,True
+40,1,New Zealand,Egypt,0-2,12.545538393513528,Victoria Egypt,Ridge,True
+40,2,New Zealand,Egypt,0-1,11.319150016439128,Victoria Egypt,Ridge,True
+40,3,New Zealand,Egypt,1-1,9.998820307000925,Empate,Ridge,True
+40,4,New Zealand,Egypt,1-2,9.631059922679695,Victoria Egypt,Ridge,True
+40,5,New Zealand,Egypt,0-3,8.700558304946982,Victoria Egypt,Ridge,True
+40,6,New Zealand,Egypt,1-3,6.67931465093902,Victoria Egypt,Ridge,True
+40,7,New Zealand,Egypt,0-0,6.537090815421418,Empate,Ridge,True
+40,8,New Zealand,Egypt,0-4,4.525496182984937,Victoria Egypt,Ridge,True
+40,9,New Zealand,Egypt,1-0,3.7092024219690476,Victoria New Zealand,Ridge,True
+40,10,New Zealand,Egypt,2-2,3.6968248123255427,Empate,Ridge,True
+41,1,Argentina,Austria,2-0,11.015043394752837,Victoria Argentina,Ridge,True
+41,2,Argentina,Austria,2-1,9.569281556714015,Victoria Argentina,Ridge,True
+41,3,Argentina,Austria,3-0,8.715796276990002,Victoria Argentina,Ridge,True
+41,4,Argentina,Austria,1-1,8.70744964004077,Empate,Ridge,True
+41,5,Argentina,Austria,1-0,8.635561859718962,Victoria Argentina,Ridge,True
+41,6,Argentina,Austria,3-1,7.571818428351147,Victoria Argentina,Ridge,True
+41,7,Argentina,Austria,4-0,5.1723653293671825,Victoria Argentina,Ridge,True
+41,8,Argentina,Austria,0-0,4.554593177498798,Empate,Ridge,True
+41,9,Argentina,Austria,4-1,4.493474821395474,Victoria Argentina,Ridge,True
+41,10,Argentina,Austria,2-2,4.156640433903699,Empate,Ridge,True
+42,1,France,Iraq,3-0,11.767233299763467,Victoria France,Ridge,True
+42,2,France,Iraq,2-0,11.100442708660086,Victoria France,Ridge,True
+42,3,France,Iraq,4-0,9.355557915476357,Victoria France,Ridge,True
+42,4,France,Iraq,3-1,7.580879348960607,Victoria France,Ridge,True
+42,5,France,Iraq,2-1,7.151308616962076,Victoria France,Ridge,True
+42,6,France,Iraq,1-0,6.621166308369829,Victoria France,Ridge,True
+42,7,France,Iraq,4-1,6.027190418742294,Victoria France,Ridge,True
+42,8,France,Iraq,5-0,5.950521192545183,Victoria France,Ridge,True
+42,9,France,Iraq,1-1,4.857177255864715,Empate,Ridge,True
+42,10,France,Iraq,5-1,3.8335420123798314,Victoria France,Ridge,True
+43,1,Norway,Senegal,2-1,8.458355902711915,Victoria Norway,Ridge,True
+43,2,Norway,Senegal,1-1,8.231588270160534,Empate,Ridge,True
+43,3,Norway,Senegal,2-2,7.013074096921638,Empate,Ridge,True
+43,4,Norway,Senegal,1-2,6.319494738560713,Victoria Senegal,Ridge,True
+43,5,Norway,Senegal,3-1,6.257786857747355,Victoria Norway,Ridge,True
+43,6,Norway,Senegal,3-2,5.188516943588743,Victoria Norway,Ridge,True
+43,7,Norway,Senegal,2-0,5.100743524750818,Victoria Norway,Ridge,True
+43,8,Norway,Senegal,1-0,3.9865426532078843,Victoria Norway,Ridge,True
+43,9,Norway,Senegal,2-3,3.8764986840326072,Victoria Senegal,Ridge,True
+43,10,Norway,Senegal,3-0,3.773708054031117,Victoria Norway,Ridge,True
+44,1,Jordan,Algeria,1-1,10.459373123705367,Empate,Ridge,True
+44,2,Jordan,Algeria,1-2,9.951924263352275,Victoria Algeria,Ridge,True
+44,3,Jordan,Algeria,0-2,9.817022282915756,Victoria Algeria,Ridge,True
+44,4,Jordan,Algeria,0-1,8.778557998247525,Victoria Algeria,Ridge,True
+44,5,Jordan,Algeria,1-3,6.817748317028928,Victoria Algeria,Ridge,True
+44,6,Jordan,Algeria,0-3,6.725331240115288,Victoria Algeria,Ridge,True
+44,7,Jordan,Algeria,0-0,5.423125195390125,Empate,Ridge,True
+44,8,Jordan,Algeria,2-2,5.044340009080819,Empate,Ridge,True
+44,9,Jordan,Algeria,2-1,4.908843545268611,Victoria Jordan,Ridge,True
+44,10,Jordan,Algeria,1-0,3.937464479603719,Victoria Jordan,Ridge,True
+45,1,Portugal,Uzbekistan,2-0,9.492157731303665,Victoria Portugal,Ridge,True
+45,2,Portugal,Uzbekistan,2-1,9.077233959307035,Victoria Portugal,Ridge,True
+45,3,Portugal,Uzbekistan,3-0,8.463448399736997,Victoria Portugal,Ridge,True
+45,4,Portugal,Uzbekistan,3-1,8.093491848916447,Victoria Portugal,Ridge,True
+45,5,Portugal,Uzbekistan,1-1,7.329994034821963,Empate,Ridge,True
+45,6,Portugal,Uzbekistan,1-0,6.554306751062097,Victoria Portugal,Ridge,True
+45,7,Portugal,Uzbekistan,4-0,5.65966881629976,Victoria Portugal,Ridge,True
+45,8,Portugal,Uzbekistan,4-1,5.412271838712001,Victoria Portugal,Ridge,True
+45,9,Portugal,Uzbekistan,2-2,4.340223723857171,Empate,Ridge,True
+45,10,Portugal,Uzbekistan,3-2,3.869853469568771,Victoria Portugal,Ridge,True
+46,1,England,Ghana,3-0,12.83798660586825,Victoria England,Ridge,True
+46,2,England,Ghana,2-0,12.691392523816297,Victoria England,Ridge,True
+46,3,England,Ghana,4-0,9.739705460797605,Victoria England,Ridge,True
+46,4,England,Ghana,1-0,7.98909786887438,Victoria England,Ridge,True
+46,5,England,Ghana,3-1,7.198783482791196,Victoria England,Ridge,True
+46,6,England,Ghana,2-1,7.1165821930602835,Victoria England,Ridge,True
+46,7,England,Ghana,5-0,5.911323348458976,Victoria England,Ridge,True
+46,8,England,Ghana,4-1,5.461450689346557,Victoria England,Ridge,True
+46,9,England,Ghana,1-1,5.065430069787422,Empate,Ridge,True
+46,10,England,Ghana,5-1,3.31472046114091,Victoria England,Ridge,True
+47,1,Panama,Croatia,1-1,10.921469545496135,Empate,Ridge,True
+47,2,Panama,Croatia,1-2,9.475125920666432,Victoria Croatia,Ridge,True
+47,3,Panama,Croatia,0-2,7.10618522239341,Victoria Croatia,Ridge,True
+47,4,Panama,Croatia,0-1,6.77518617899001,Victoria Croatia,Ridge,True
+47,5,Panama,Croatia,2-1,6.741798918030632,Victoria Panama,Ridge,True
+47,6,Panama,Croatia,2-2,6.31689214415432,Empate,Ridge,True
+47,7,Panama,Croatia,1-3,5.918632818020891,Victoria Croatia,Ridge,True
+47,8,Panama,Croatia,0-0,4.856165386051921,Empate,Ridge,True
+47,9,Panama,Croatia,1-0,4.587346683922933,Victoria Panama,Ridge,True
+47,10,Panama,Croatia,0-3,4.438875158002597,Victoria Croatia,Ridge,True
+48,1,Colombia,DR Congo,2-1,9.635142014843835,Victoria Colombia,Ridge,True
+48,2,Colombia,DR Congo,2-0,8.9717074277986,Victoria Colombia,Ridge,True
+48,3,Colombia,DR Congo,1-1,8.767694108271554,Empate,Ridge,True
+48,4,Colombia,DR Congo,3-1,7.623656979799392,Victoria Colombia,Ridge,True
+48,5,Colombia,DR Congo,3-0,7.0987246319029405,Victoria Colombia,Ridge,True
+48,6,Colombia,DR Congo,1-0,6.909789572130105,Victoria Colombia,Ridge,True
+48,7,Colombia,DR Congo,2-2,5.1738179378520055,Empate,Ridge,True
+48,8,Colombia,DR Congo,4-1,4.524075435741202,Victoria Colombia,Ridge,True
+48,9,Colombia,DR Congo,1-2,4.359278906194291,Victoria DR Congo,Ridge,True
+48,10,Colombia,DR Congo,4-0,4.21256698948805,Victoria Colombia,Ridge,True
+49,1,Switzerland,Canada,1-1,10.755495027632215,Empate,Ridge,True
+49,2,Switzerland,Canada,2-1,9.02724886193626,Victoria Switzerland,Ridge,True
+49,3,Switzerland,Canada,1-2,7.383544724190173,Victoria Canada,Ridge,True
+49,4,Switzerland,Canada,2-2,6.692889837263833,Empate,Ridge,True
+49,5,Switzerland,Canada,2-0,6.087895064521526,Victoria Switzerland,Ridge,True
+49,6,Switzerland,Canada,1-0,5.9194157967177485,Victoria Switzerland,Ridge,True
+49,7,Switzerland,Canada,3-1,5.455228206632721,Victoria Switzerland,Ridge,True
+49,8,Switzerland,Canada,0-1,4.696527962798305,Victoria Canada,Ridge,True
+49,9,Switzerland,Canada,0-0,4.501288887404353,Empate,Ridge,True
+49,10,Switzerland,Canada,0-2,4.072734948555788,Victoria Canada,Ridge,True
+50,1,Bosnia and Herzegovina,Qatar,1-1,11.48592131990484,Empate,Ridge,True
+50,2,Bosnia and Herzegovina,Qatar,2-1,9.235215515423755,Victoria Bosnia and Herzegovina,Ridge,True
+50,3,Bosnia and Herzegovina,Qatar,1-2,7.308336346867842,Victoria Qatar,Ridge,True
+50,4,Bosnia and Herzegovina,Qatar,1-0,6.887314231302201,Victoria Bosnia and Herzegovina,Ridge,True
+50,5,Bosnia and Herzegovina,Qatar,2-0,6.719556255121881,Victoria Bosnia and Herzegovina,Ridge,True
+50,6,Bosnia and Herzegovina,Qatar,2-2,6.346342107881993,Empate,Ridge,True
+50,7,Bosnia and Herzegovina,Qatar,3-1,5.346391145596127,Victoria Bosnia and Herzegovina,Ridge,True
+50,8,Bosnia and Herzegovina,Qatar,0-0,5.306352527255642,Empate,Ridge,True
+50,9,Bosnia and Herzegovina,Qatar,0-1,5.272795500525696,Victoria Qatar,Ridge,True
+50,10,Bosnia and Herzegovina,Qatar,0-2,4.208076026394289,Victoria Qatar,Ridge,True
+51,1,Scotland,Brazil,0-2,14.052282683579195,Victoria Brazil,Ridge,True
+51,2,Scotland,Brazil,0-1,12.448613206580797,Victoria Brazil,Ridge,True
+51,3,Scotland,Brazil,0-3,10.024082364835502,Victoria Brazil,Ridge,True
+51,4,Scotland,Brazil,1-1,9.236741948841736,Empate,Ridge,True
+51,5,Scotland,Brazil,1-2,9.151326767291057,Victoria Brazil,Ridge,True
+51,6,Scotland,Brazil,0-0,6.820959256421931,Empate,Ridge,True
+51,7,Scotland,Brazil,1-3,6.52802504251105,Victoria Brazil,Ridge,True
+51,8,Scotland,Brazil,0-4,5.362948649675155,Victoria Brazil,Ridge,True
+51,9,Scotland,Brazil,1-4,3.492535457369493,Victoria Brazil,Ridge,True
+51,10,Scotland,Brazil,1-0,3.3122622411320566,Victoria Scotland,Ridge,True
+52,1,Morocco,Haiti,2-0,18.78967605419237,Victoria Morocco,Ridge,True
+52,2,Morocco,Haiti,3-0,17.740129840089974,Victoria Morocco,Ridge,True
+52,3,Morocco,Haiti,1-0,13.022165523786084,Victoria Morocco,Ridge,True
+52,4,Morocco,Haiti,4-0,12.561906569154171,Victoria Morocco,Ridge,True
+52,5,Morocco,Haiti,5-0,7.116137168085503,Victoria Morocco,Ridge,True
+52,6,Morocco,Haiti,0-0,4.929538932018257,Empate,Ridge,True
+52,7,Morocco,Haiti,2-1,4.343851788606797,Victoria Morocco,Ridge,True
+52,8,Morocco,Haiti,3-1,4.101214651797992,Victoria Morocco,Ridge,True
+52,9,Morocco,Haiti,6-0,3.3593234113677006,Victoria Morocco,Ridge,True
+52,10,Morocco,Haiti,1-1,3.3126075988827686,Empate,Ridge,True
+53,1,Czech Republic,Mexico,1-1,13.195207974391169,Empate,Ridge,True
+53,2,Czech Republic,Mexico,1-0,9.655076984902852,Victoria Czech Republic,Ridge,True
+53,3,Czech Republic,Mexico,2-1,9.120104462670904,Victoria Czech Republic,Ridge,True
+53,4,Czech Republic,Mexico,0-0,8.099358684973538,Empate,Ridge,True
+53,5,Czech Republic,Mexico,2-0,7.936750202584096,Victoria Czech Republic,Ridge,True
+53,6,Czech Republic,Mexico,0-1,7.206380062526447,Victoria Mexico,Ridge,True
+53,7,Czech Republic,Mexico,1-2,7.019716768887839,Victoria Mexico,Ridge,True
+53,8,Czech Republic,Mexico,2-2,5.239947288686793,Empate,Ridge,True
+53,9,Czech Republic,Mexico,0-2,4.701996108032847,Victoria Mexico,Ridge,True
+53,10,Czech Republic,Mexico,3-1,4.538537021276818,Victoria Czech Republic,Ridge,True
+54,1,South Africa,South Korea,0-2,11.566141153085617,Victoria South Korea,Ridge,True
+54,2,South Africa,South Korea,0-1,11.280072537773187,Victoria South Korea,Ridge,True
+54,3,South Africa,South Korea,1-1,11.088058068761944,Empate,Ridge,True
+54,4,South Africa,South Korea,1-2,9.812603326944872,Victoria South Korea,Ridge,True
+54,5,South Africa,South Korea,0-3,7.369698752251855,Victoria South Korea,Ridge,True
+54,6,South Africa,South Korea,0-0,7.152063078270385,Empate,Ridge,True
+54,7,South Africa,South Korea,1-3,6.252381804594832,Victoria South Korea,Ridge,True
+54,8,South Africa,South Korea,1-0,4.549589170260069,Victoria South Africa,Ridge,True
+54,9,South Africa,South Korea,2-1,4.355093620009387,Victoria South Africa,Ridge,True
+54,10,South Africa,South Korea,2-2,4.162459318866346,Empate,Ridge,True
+55,1,Ecuador,Germany,0-1,14.36798184987677,Victoria Germany,Ridge,True
+55,2,Ecuador,Germany,1-1,12.474783225020811,Empate,Ridge,True
+55,3,Ecuador,Germany,0-2,12.079911690282458,Victoria Germany,Ridge,True
+55,4,Ecuador,Germany,0-0,10.603205069875388,Empate,Ridge,True
+55,5,Ecuador,Germany,1-2,9.124468788554376,Victoria Germany,Ridge,True
+55,6,Ecuador,Germany,1-0,6.387011588075891,Victoria Ecuador,Ridge,True
+55,7,Ecuador,Germany,0-3,6.361665621177956,Victoria Germany,Ridge,True
+55,8,Ecuador,Germany,1-3,4.805235409986707,Victoria Germany,Ridge,True
+55,9,Ecuador,Germany,2-1,4.3623759159416995,Victoria Ecuador,Ridge,True
+55,10,Ecuador,Germany,2-2,3.446048812603374,Empate,Ridge,True
+56,1,Curacao,Ivory Coast,0-2,12.53058496068506,Victoria Ivory Coast,Ridge,True
+56,2,Curacao,Ivory Coast,0-3,11.481279302731965,Victoria Ivory Coast,Ridge,True
+56,3,Curacao,Ivory Coast,0-1,8.636139713827614,Victoria Ivory Coast,Ridge,True
+56,4,Curacao,Ivory Coast,1-2,8.264439823773296,Victoria Ivory Coast,Ridge,True
+56,5,Curacao,Ivory Coast,0-4,7.8898815283321735,Victoria Ivory Coast,Ridge,True
+56,6,Curacao,Ivory Coast,1-3,7.572379277988202,Victoria Ivory Coast,Ridge,True
+56,7,Curacao,Ivory Coast,1-1,6.494219772575822,Empate,Ridge,True
+56,8,Curacao,Ivory Coast,1-4,5.203703682803719,Victoria Ivory Coast,Ridge,True
+56,9,Curacao,Ivory Coast,0-5,4.33751179740431,Victoria Ivory Coast,Ridge,True
+56,10,Curacao,Ivory Coast,0-0,3.797866099482455,Empate,Ridge,True
+57,1,Japan,Sweden,2-1,8.250391774830996,Victoria Japan,Ridge,True
+57,2,Japan,Sweden,3-1,7.700770326411837,Victoria Japan,Ridge,True
+57,3,Japan,Sweden,1-1,6.364253486097575,Empate,Ridge,True
+57,4,Japan,Sweden,2-0,5.8948443523361576,Victoria Japan,Ridge,True
+57,5,Japan,Sweden,2-2,5.773601504102724,Empate,Ridge,True
+57,6,Japan,Sweden,3-0,5.502143862521795,Victoria Japan,Ridge,True
+57,7,Japan,Sweden,4-1,5.390822512306673,Victoria Japan,Ridge,True
+57,8,Japan,Sweden,3-2,5.388977924049159,Victoria Japan,Ridge,True
+57,9,Japan,Sweden,1-2,4.12378436108969,Victoria Sweden,Ridge,True
+57,10,Japan,Sweden,4-0,3.8517031079737483,Victoria Japan,Ridge,True
+58,1,Tunisia,Netherlands,0-2,11.807102343457956,Victoria Netherlands,Ridge,True
+58,2,Tunisia,Netherlands,0-3,10.424463652241574,Victoria Netherlands,Ridge,True
+58,3,Tunisia,Netherlands,1-2,8.789760021719143,Victoria Netherlands,Ridge,True
+58,4,Tunisia,Netherlands,0-1,8.384452983575732,Victoria Netherlands,Ridge,True
+58,5,Tunisia,Netherlands,1-3,7.760459018050827,Victoria Netherlands,Ridge,True
+58,6,Tunisia,Netherlands,1-1,7.168018587945387,Empate,Ridge,True
+58,7,Tunisia,Netherlands,0-4,6.902801335743291,Victoria Netherlands,Ridge,True
+58,8,Tunisia,Netherlands,1-4,5.138768637201146,Victoria Netherlands,Ridge,True
+58,9,Tunisia,Netherlands,0-0,3.89693270950631,Empate,Ridge,True
+58,10,Tunisia,Netherlands,0-5,3.6566805061855416,Victoria Netherlands,Ridge,True
+59,1,Turkey,United States,1-1,13.170463529602076,Empate,Ridge,True
+59,2,Turkey,United States,2-1,8.575692091085477,Victoria Turkey,Ridge,True
+59,3,Turkey,United States,1-0,8.368990015521348,Victoria Turkey,Ridge,True
+59,4,Turkey,United States,1-2,7.957283502621511,Victoria United States,Ridge,True
+59,5,Turkey,United States,0-1,7.69513554308312,Victoria United States,Ridge,True
+59,6,Turkey,United States,0-0,7.619716683165214,Empate,Ridge,True
+59,7,Turkey,United States,2-0,6.571305482530127,Victoria Turkey,Ridge,True
+59,8,Turkey,United States,0-2,5.657739678015303,Victoria United States,Ridge,True
+59,9,Turkey,United States,2-2,5.5957294206318196,Empate,Ridge,True
+59,10,Turkey,United States,3-1,4.020404913356618,Victoria Turkey,Ridge,True
+60,1,Paraguay,Australia,1-1,13.917817999331131,Empate,Ridge,True
+60,2,Paraguay,Australia,0-1,11.281563552947302,Victoria Australia,Ridge,True
+60,3,Paraguay,Australia,0-0,10.203542371384767,Empate,Ridge,True
+60,4,Paraguay,Australia,1-2,8.649121273700246,Victoria Australia,Ridge,True
+60,5,Paraguay,Australia,1-0,8.569527546367514,Victoria Paraguay,Ridge,True
+60,6,Paraguay,Australia,0-2,8.263638157745502,Victoria Australia,Ridge,True
+60,7,Paraguay,Australia,2-1,6.744008300089257,Victoria Paraguay,Ridge,True
+60,8,Paraguay,Australia,2-0,5.024160576354705,Victoria Paraguay,Ridge,True
+60,9,Paraguay,Australia,2-2,4.526293224556145,Empate,Ridge,True
+60,10,Paraguay,Australia,1-3,3.8699496676672918,Victoria Australia,Ridge,True
+61,1,Norway,France,1-1,10.953132988247502,Empate,Ridge,True
+61,2,Norway,France,1-2,9.8174942124257,Victoria France,Ridge,True
+61,3,Norway,France,0-2,8.376220031611558,Victoria France,Ridge,True
+61,4,Norway,France,0-1,7.841563664825952,Victoria France,Ridge,True
+61,5,Norway,France,1-3,6.335712234516752,Victoria France,Ridge,True
+61,6,Norway,France,2-1,5.943430469112963,Victoria Norway,Ridge,True
+61,7,Norway,France,2-2,5.753382328022987,Empate,Ridge,True
+61,8,Norway,France,0-3,5.405587065803149,Victoria France,Ridge,True
+61,9,Norway,France,0-0,5.280709835222599,Empate,Ridge,True
+61,10,Norway,France,1-0,4.42705564748581,Victoria Norway,Ridge,True
+62,1,Senegal,Iraq,2-1,9.65413992403181,Victoria Senegal,Ridge,True
+62,2,Senegal,Iraq,2-0,9.592952336950468,Victoria Senegal,Ridge,True
+62,3,Senegal,Iraq,1-1,8.770384021315774,Empate,Ridge,True
+62,4,Senegal,Iraq,3-1,7.651402784793635,Victoria Senegal,Ridge,True
+62,5,Senegal,Iraq,3-0,7.602908472729276,Victoria Senegal,Ridge,True
+62,6,Senegal,Iraq,1-0,7.419599004851994,Victoria Senegal,Ridge,True
+62,7,Senegal,Iraq,2-2,4.857858894690042,Empate,Ridge,True
+62,8,Senegal,Iraq,4-1,4.548097891357655,Victoria Senegal,Ridge,True
+62,9,Senegal,Iraq,4-0,4.519272212636221,Victoria Senegal,Ridge,True
+62,10,Senegal,Iraq,1-2,4.086261549646464,Victoria Iraq,Ridge,True
+63,1,Cape Verde,Saudi Arabia,1-1,11.656132115899226,Empate,Ridge,True
+63,2,Cape Verde,Saudi Arabia,2-1,9.066423804749073,Victoria Cape Verde,Ridge,True
+63,3,Cape Verde,Saudi Arabia,1-2,7.585092712758276,Victoria Saudi Arabia,Ridge,True
+63,4,Cape Verde,Saudi Arabia,1-0,6.814979089667189,Victoria Cape Verde,Ridge,True
+63,5,Cape Verde,Saudi Arabia,2-0,6.450239383578806,Victoria Cape Verde,Ridge,True
+63,6,Cape Verde,Saudi Arabia,2-2,6.371859687610024,Empate,Ridge,True
+63,7,Cape Verde,Saudi Arabia,0-1,5.56043293164129,Victoria Saudi Arabia,Ridge,True
+63,8,Cape Verde,Saudi Arabia,0-0,5.433617304141655,Empate,Ridge,True
+63,9,Cape Verde,Saudi Arabia,3-1,5.077501580180488,Victoria Cape Verde,Ridge,True
+63,10,Cape Verde,Saudi Arabia,0-2,4.514665598570221,Victoria Saudi Arabia,Ridge,True
+64,1,Uruguay,Spain,0-2,10.670103804294998,Victoria Spain,Ridge,True
+64,2,Uruguay,Spain,1-1,10.49971711985001,Empate,Ridge,True
+64,3,Uruguay,Spain,1-2,9.930611197557608,Victoria Spain,Ridge,True
+64,4,Uruguay,Spain,0-1,9.668158687202364,Victoria Spain,Ridge,True
+64,5,Uruguay,Spain,0-3,7.266069056732287,Victoria Spain,Ridge,True
+64,6,Uruguay,Spain,1-3,6.762493417165033,Victoria Spain,Ridge,True
+64,7,Uruguay,Spain,0-0,5.8909756293443865,Empate,Ridge,True
+64,8,Uruguay,Spain,2-2,4.621184599786207,Empate,Ridge,True
+64,9,Uruguay,Spain,2-1,4.5240894348361165,Victoria Uruguay,Ridge,True
+64,10,Uruguay,Spain,1-0,3.9810898434343573,Victoria Uruguay,Ridge,True
+65,1,Egypt,Iran,1-1,13.116757963073807,Empate,Ridge,True
+65,2,Egypt,Iran,0-1,9.883210431254321,Victoria Iran,Ridge,True
+65,3,Egypt,Iran,1-2,9.238003922285499,Victoria Iran,Ridge,True
+65,4,Egypt,Iran,0-2,8.256540289355236,Victoria Iran,Ridge,True
+65,5,Egypt,Iran,0-0,8.106995251031272,Empate,Ridge,True
+65,6,Egypt,Iran,1-0,7.011962400580519,Victoria Egypt,Ridge,True
+65,7,Egypt,Iran,2-1,6.7944262895870935,Victoria Egypt,Ridge,True
+65,8,Egypt,Iran,2-2,5.168067585050602,Empate,Ridge,True
+65,9,Egypt,Iran,1-3,4.684489568996941,Victoria Iran,Ridge,True
+65,10,Egypt,Iran,2-0,4.466294978239943,Victoria Egypt,Ridge,True
+66,1,New Zealand,Belgium,0-2,14.924542967143124,Victoria Belgium,Ridge,True
+66,2,New Zealand,Belgium,0-3,13.961119266185806,Victoria Belgium,Ridge,True
+66,3,New Zealand,Belgium,0-1,10.23730265241415,Victoria Belgium,Ridge,True
+66,4,New Zealand,Belgium,0-4,9.794915575996441,Victoria Belgium,Ridge,True
+66,5,New Zealand,Belgium,1-2,6.998269440231082,Victoria Belgium,Ridge,True
+66,6,New Zealand,Belgium,1-3,6.546510303670098,Victoria Belgium,Ridge,True
+66,7,New Zealand,Belgium,0-5,5.497574760973086,Victoria Belgium,Ridge,True
+66,8,New Zealand,Belgium,1-1,5.386466449772972,Empate,Ridge,True
+66,9,New Zealand,Belgium,1-4,4.592935173696698,Victoria Belgium,Ridge,True
+66,10,New Zealand,Belgium,0-0,4.189092846229539,Empate,Ridge,True
+67,1,Panama,England,0-2,20.438177441736276,Victoria England,Ridge,True
+67,2,Panama,England,0-1,18.72349262220921,Victoria England,Ridge,True
+67,3,Panama,England,0-3,14.543736046417308,Victoria England,Ridge,True
+67,4,Panama,England,0-0,9.393599779334084,Empate,Ridge,True
+67,5,Panama,England,0-4,7.761954024185075,Victoria England,Ridge,True
+67,6,Panama,England,1-1,5.72708122404942,Empate,Ridge,True
+67,7,Panama,England,1-2,5.660237635915379,Victoria England,Ridge,True
+67,8,Panama,England,1-3,4.027805432819307,Victoria England,Ridge,True
+67,9,Panama,England,0-5,3.3140277068438326,Victoria England,Ridge,True
+67,10,Panama,England,1-4,2.149629262256021,Victoria England,Ridge,True
+68,1,Croatia,Ghana,2-1,9.189213229053275,Victoria Croatia,Ridge,True
+68,2,Croatia,Ghana,2-0,8.978800695300984,Victoria Croatia,Ridge,True
+68,3,Croatia,Ghana,3-1,8.046736467438409,Victoria Croatia,Ridge,True
+68,4,Croatia,Ghana,3-0,7.86248410911925,Victoria Croatia,Ridge,True
+68,5,Croatia,Ghana,1-1,7.555607280008261,Empate,Ridge,True
+68,6,Croatia,Ghana,1-0,6.2760667636550584,Victoria Croatia,Ridge,True
+68,7,Croatia,Ghana,4-1,5.2847261916573816,Victoria Croatia,Ridge,True
+68,8,Croatia,Ghana,4-0,5.163717722220842,Victoria Croatia,Ridge,True
+68,9,Croatia,Ghana,2-2,4.702278323941409,Empate,Ridge,True
+68,10,Croatia,Ghana,3-2,4.117653331807905,Victoria Croatia,Ridge,True
+69,1,Colombia,Portugal,1-1,9.799950746426202,Empate,Ridge,True
+69,2,Colombia,Portugal,1-2,8.772335353629991,Victoria Portugal,Ridge,True
+69,3,Colombia,Portugal,2-1,7.208304376697539,Victoria Colombia,Ridge,True
+69,4,Colombia,Portugal,2-2,6.968642818353808,Empate,Ridge,True
+69,5,Colombia,Portugal,1-3,5.653781949967356,Victoria Portugal,Ridge,True
+69,6,Colombia,Portugal,0-2,5.521438647556149,Victoria Portugal,Ridge,True
+69,7,Colombia,Portugal,0-1,4.985406514374703,Victoria Portugal,Ridge,True
+69,8,Colombia,Portugal,2-3,4.491299681774595,Victoria Portugal,Ridge,True
+69,9,Colombia,Portugal,1-0,3.9671263426913073,Victoria Colombia,Ridge,True
+69,10,Colombia,Portugal,3-1,3.817463005553063,Victoria Colombia,Ridge,True
+70,1,DR Congo,Uzbekistan,1-1,12.762618565080135,Empate,Ridge,True
+70,2,DR Congo,Uzbekistan,1-0,12.337172326465515,Victoria DR Congo,Ridge,True
+70,3,DR Congo,Uzbekistan,2-0,10.609840967818256,Victoria DR Congo,Ridge,True
+70,4,DR Congo,Uzbekistan,2-1,9.4393784985709,Victoria DR Congo,Ridge,True
+70,5,DR Congo,Uzbekistan,0-0,9.259649571298484,Empate,Ridge,True
+70,6,DR Congo,Uzbekistan,0-1,6.451672853383922,Victoria Uzbekistan,Ridge,True
+70,7,DR Congo,Uzbekistan,3-0,5.649954906966309,Victoria DR Congo,Ridge,True
+70,8,DR Congo,Uzbekistan,1-2,5.256789237345435,Victoria Uzbekistan,Ridge,True
+70,9,DR Congo,Uzbekistan,3-1,5.026659968653593,Victoria DR Congo,Ridge,True
+70,10,DR Congo,Uzbekistan,2-2,4.199019886798781,Empate,Ridge,True
+71,1,Algeria,Austria,1-1,13.295794043825024,Empate,Ridge,True
+71,2,Algeria,Austria,0-1,11.487754833811824,Victoria Austria,Ridge,True
+71,3,Algeria,Austria,0-2,9.356203392395782,Victoria Austria,Ridge,True
+71,4,Algeria,Austria,0-0,9.298419969120914,Empate,Ridge,True
+71,5,Algeria,Austria,1-2,9.234899894602949,Victoria Austria,Ridge,True
+71,6,Algeria,Austria,1-0,7.22088729006039,Victoria Algeria,Ridge,True
+71,7,Algeria,Austria,2-1,6.075654452848912,Victoria Algeria,Ridge,True
+71,8,Algeria,Austria,0-3,4.6789678777374375,Victoria Austria,Ridge,True
+71,9,Algeria,Austria,1-3,4.61830489876766,Victoria Austria,Ridge,True
+71,10,Algeria,Austria,2-2,4.557584550409156,Empate,Ridge,True
+72,1,Jordan,Argentina,0-2,25.68411165081055,Victoria Argentina,Ridge,True
+72,2,Jordan,Argentina,0-1,25.210627918935042,Victoria Argentina,Ridge,True
+72,3,Jordan,Argentina,0-3,17.371059124222132,Victoria Argentina,Ridge,True
+72,4,Jordan,Argentina,0-0,12.58385875950172,Empate,Ridge,True
+72,5,Jordan,Argentina,0-4,8.81148915717992,Victoria Argentina,Ridge,True
+72,6,Jordan,Argentina,0-5,3.5757101791834986,Victoria Argentina,Ridge,True
+72,7,Jordan,Argentina,1-1,1.4354715836549685,Empate,Ridge,True
+72,8,Jordan,Argentina,1-2,1.348415861667554,Victoria Argentina,Ridge,True
+72,9,Jordan,Argentina,0-6,1.2091886567491865,Victoria Argentina,Ridge,True
+72,10,Jordan,Argentina,1-3,0.9119806040216621,Victoria Argentina,Ridge,True
