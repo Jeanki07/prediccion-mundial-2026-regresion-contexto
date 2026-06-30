@@ -20,8 +20,11 @@ ARCHIVO_TOP10 = OUT_DIR / "top10_todos_modelos.csv"
 ARCHIVO_COMPETENCIA = OUT_DIR / "competencia_modelos.csv"
 ARCHIVO_MEJOR_MODELO = OUT_DIR / "mejor_modelo.txt"
 
-# Cambia este número según el partido que quieras visualizar
-#partido= n-1 segun el fixtures_modelo.csv
+# Cambia este numero segun el partido que quieras visualizar.
+# En outputs/predicciones_todos_modelos.csv se llama match_id.
+# En data/fixtures_modelo.csv se llama match_no.
+# Si se mira con indice de pandas, el indice empieza en 0:
+# por ejemplo, MATCH_ID = 65 corresponde al indice 64.
 MATCH_ID = 65
 
 
