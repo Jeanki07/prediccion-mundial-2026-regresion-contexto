@@ -153,6 +153,7 @@ modelo regresion/
 ├── 04_mostrar_modelo_final.py
 ├── 05_crear_contexto_grupos.py
 ├── 06_predecir_clasificados.py
+├── 07_predecir_clasificados.py
 ├── requirements.txt
 └── README.txt
 ```
@@ -187,6 +188,8 @@ joblib
 7) python 04_mostrar_modelo_final.py
 
 8) python 06_predecir_clasificados.py
+
+9) 07_predecir_octavos.py
 ```
 ---
 
