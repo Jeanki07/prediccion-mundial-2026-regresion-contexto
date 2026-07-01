@@ -464,7 +464,7 @@ def graficar_16avos(predicciones_16avos):
         "Fuente"
     ]
 
-    fig, ax = plt.subplots(figsize=(20, 12))
+    fig, ax = plt.subplots(figsize=(20, 12), constrained_layout=False)
     ax.axis("off")
 
     fig.suptitle(
@@ -484,9 +484,14 @@ def graficar_16avos(predicciones_16avos):
     tabla_plot.set_fontsize(9)
     tabla_plot.scale(1, 1.5)
 
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    fig.subplots_adjust(
+        left=0.02,
+        right=0.98,
+        bottom=0.02,
+        top=0.90
+    )
 
-    plt.savefig(
+    fig.savefig(
         IMAGEN_16AVOS,
         dpi=300,
         bbox_inches="tight"
