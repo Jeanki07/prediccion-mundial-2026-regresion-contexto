@@ -913,7 +913,7 @@ def mostrar_clasificados(clasificados_grupos, mejores_terceros, clasificados_16a
 def graficar_tablas_grupos(tablas_grupos):
     grupos = sorted(tablas_grupos["group"].unique())
 
-    fig, axes = plt.subplots(4, 3, figsize=(18, 20))
+    fig, axes = plt.subplots(4, 3, figsize=(18, 20), constrained_layout=False)
     axes = axes.flatten()
 
     fig.suptitle(
@@ -964,9 +964,16 @@ def graficar_tablas_grupos(tablas_grupos):
     for j in range(len(grupos), len(axes)):
         axes[j].axis("off")
 
-    plt.tight_layout(rect=[0, 0, 1, 0.96])
+    fig.subplots_adjust(
+        left=0.03,
+        right=0.97,
+        bottom=0.03,
+        top=0.92,
+        wspace=0.20,
+        hspace=0.35
+    )
 
-    plt.savefig(
+    fig.savefig(
         IMAGEN_TABLAS_GRUPOS,
         dpi=300,
         bbox_inches="tight"
@@ -978,7 +985,7 @@ def graficar_tablas_grupos(tablas_grupos):
 
 
 def graficar_clasificados_16avos(clasificados_16avos, mejores_terceros):
-    fig, axes = plt.subplots(1, 3, figsize=(20, 8))
+    fig, axes = plt.subplots(1, 3, figsize=(20, 8), constrained_layout=False)
 
     fig.suptitle(
         "Mundial 2026 - Clasificados predichos a 16avos",
@@ -1081,9 +1088,15 @@ def graficar_clasificados_16avos(clasificados_16avos, mejores_terceros):
     tabla3.scale(1, 1.5)
     axes[2].set_title("Mejores terceros", fontsize=13, fontweight="bold")
 
-    plt.tight_layout(rect=[0, 0, 1, 0.94])
+    fig.subplots_adjust(
+        left=0.03,
+        right=0.97,
+        bottom=0.05,
+        top=0.86,
+        wspace=0.25
+    )
 
-    plt.savefig(
+    fig.savefig(
         IMAGEN_CLASIFICADOS,
         dpi=300,
         bbox_inches="tight"
@@ -1095,7 +1108,7 @@ def graficar_clasificados_16avos(clasificados_16avos, mejores_terceros):
 
 
 def graficar_cruces_16avos(cruces_16avos):
-    fig, ax = plt.subplots(figsize=(16, 13))
+    fig, ax = plt.subplots(figsize=(16, 13), constrained_layout=False)
     ax.axis("off")
 
     fig.suptitle(
@@ -1131,9 +1144,14 @@ def graficar_cruces_16avos(cruces_16avos):
     tabla_plot.set_fontsize(10)
     tabla_plot.scale(1, 1.6)
 
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    fig.subplots_adjust(
+        left=0.03,
+        right=0.97,
+        bottom=0.03,
+        top=0.90
+    )
 
-    plt.savefig(
+    fig.savefig(
         IMAGEN_CRUCES_16AVOS,
         dpi=300,
         bbox_inches="tight"
