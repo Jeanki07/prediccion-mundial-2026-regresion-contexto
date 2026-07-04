@@ -1,49 +1,49 @@
-team,yellow_cards,indirect_red_cards,direct_red_cards,team_conduct_score,source_note
-Norway,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-France,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Japan,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Croatia,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Germany,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-England,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Jordan,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Algeria,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Czech Republic,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Morocco,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Tunisia,1,0,0,-1,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Spain,2,0,0,-2,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-DR Congo,2,0,0,-2,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Senegal,2,0,0,-2,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Ghana,2,0,0,-2,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Uzbekistan,2,0,0,-2,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Argentina,2,0,0,-2,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Switzerland,3,0,0,-3,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Panama,3,0,0,-3,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Colombia,3,0,0,-3,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Austria,3,0,0,-3,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Turkey,3,0,0,-3,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Netherlands,3,0,0,-3,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Cape Verde,4,0,0,-4,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Ivory Coast,4,0,0,-4,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-South Korea,4,0,0,-4,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Portugal,4,0,0,-4,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-New Zealand,4,0,0,-4,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-United States,5,0,0,-5,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Australia,5,0,0,-5,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Sweden,5,0,0,-5,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Ecuador,5,0,0,-5,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Scotland,5,0,0,-5,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Brazil,5,0,0,-5,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Canada,5,0,0,-5,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Egypt,6,0,0,-6,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Iran,6,0,0,-6,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Mexico,6,0,0,-6,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Saudi Arabia,6,0,0,-6,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Curacao,7,0,0,-7,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Haiti,7,0,0,-7,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Belgium,7,0,0,-7,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Iraq,8,0,0,-8,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Uruguay,9,0,0,-9,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Bosnia and Herzegovina,10,0,0,-10,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Paraguay,12,0,0,-12,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-Qatar,12,0,0,-12,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
-South Africa,13,0,0,-13,Team Conduct Score converted to yellow-card-equivalent counts for model tiebreaker
+team,yellow_cards,indirect_red_cards,direct_red_cards,team_conduct_score,matches_count,fair_play_points,cards_per_match,source_note
+France,1,0,0,-1,4,1,0.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Czech Republic,1,0,0,-1,3,1,0.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Tunisia,1,0,0,-1,3,1,0.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Spain,2,0,0,-2,4,2,0.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Turkey,2,0,0,-2,3,2,0.6667,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Norway,2,0,0,-2,4,2,0.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Morocco,2,0,0,-2,4,2,0.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Germany,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+England,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Netherlands,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Switzerland,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Argentina,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Senegal,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Algeria,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Japan,4,0,0,-4,4,4,1.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Croatia,4,0,0,-4,4,4,1.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Uzbekistan,4,0,0,-4,3,4,1.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+South Korea,4,0,0,-4,3,4,1.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Ivory Coast,4,0,0,-4,4,4,1.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+New Zealand,4,0,0,-4,3,4,1.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Jordan,4,0,0,-4,3,4,1.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Portugal,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Scotland,5,0,0,-5,3,5,1.6667,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Austria,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Australia,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Sweden,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Panama,5,0,0,-5,3,5,1.6667,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Cape Verde,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Ghana,6,0,0,-6,4,6,1.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Iran,6,0,0,-6,3,6,2.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Saudi Arabia,6,0,0,-6,3,6,2.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Colombia,6,0,0,-6,4,6,1.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+DR Congo,6,0,0,-6,4,6,1.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Mexico,2,0,1,-6,4,6,1.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Brazil,7,0,0,-7,4,7,1.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Canada,7,0,0,-7,4,7,1.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Haiti,7,0,0,-7,3,7,2.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Curacao,7,0,0,-7,3,7,2.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Belgium,4,0,1,-8,4,8,2.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Iraq,4,0,1,-8,3,8,2.6667,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Egypt,8,0,0,-8,4,8,2.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Uruguay,5,0,1,-9,3,9,3.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+United States,5,0,1,-9,4,9,2.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Bosnia and Herzegovina,7,0,1,-11,4,11,2.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Ecuador,8,0,1,-12,4,12,3.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Qatar,4,0,2,-12,3,12,4.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+Paraguay,9,0,1,-13,4,13,3.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
+South Africa,5,0,2,-13,4,13,3.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
