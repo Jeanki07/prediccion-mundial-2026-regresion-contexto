@@ -16,7 +16,6 @@ Este proyecto fue desarrollado por el siguiente equipo:
 - 👤 **Integrante 2:** MARREROS CORTEGANA MIGUEL ANGEL 
 - 👤 **Integrante 3:** FERNANDEZ CAMPOS VALENTIN 
 - 👤 **Integrante 4:** SALON TRIGOSO FRANK
-- 👤 **Integrante 4:** TUESTA CHUQUIZUTA MARIA CARMEN
 
 ```
 ```
