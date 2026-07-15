@@ -242,7 +242,7 @@ lambda_away_final = lambda_away_base * factor_contexto_away
 -cruces_16avos_predichos.csv
 ```
 ---
-```
+
 # ⚽ Clasificados a dieciseisavos de final — Mundial 2026
 
 Estas son las **32 selecciones** que, según la predicción del modelo, avanzaron a los dieciseisavos de final.
