@@ -397,6 +397,21 @@ Los equipos que avanzaron fueron:
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d74f621a-c329-439b-981d-867a4b679dff" />
 
+# ⚽ Clasificados de cuartos a semifinales — Mundial 2026
+
+Estas son las **4 selecciones** que, según la predicción balanceada del modelo, avanzan de los cuartos de final a las semifinales.
+
+## Clasificados
+
+| N.º | Partido de cuartos | Clasificado a semifinales |
+|:---:|---|---|
+| 1 | Francia vs. Marruecos | **Francia** |
+| 2 | España vs. Bélgica | **España** |
+| 3 | Noruega vs. Inglaterra | **Inglaterra** |
+| 4 | Argentina vs. Suiza | **Argentina** |
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/eb845c25-8f38-47a4-b904-eaa10d642dde" />
+
+
 # ⚠️ NOTE
 ```
 El modelo no garantiza el resultado real de los partidos.
