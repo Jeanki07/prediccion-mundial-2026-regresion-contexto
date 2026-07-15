@@ -365,6 +365,37 @@ Estas son las **32 selecciones** que, según la predicción del modelo, avanzaro
 | 16 | Colombia vs. Ghana | 1-0 | Colombia |
 
 <img width="1354" height="323" alt="image" src="https://github.com/user-attachments/assets/5f340536-9eb0-46a4-b3fe-483cf5ed8fe7" />
+# README – Equipos que pasaron de octavos a cuartos
+
+Este documento resume los equipos que clasificaron desde la fase de octavos de final hacia los cuartos del Mundial 2026.
+
+## Resumen general
+
+Los equipos que avanzaron fueron:
+
+- Morocco
+- France
+- Norway
+- England
+- Spain
+- Belgium
+- Argentina
+- Switzerland
+
+## Resultados que definieron el avance
+
+| Fecha | Partido | Equipo clasificado |
+| --- | --- | --- |
+| 2026-07-04 | Canada vs Morocco | Morocco |
+| 2026-07-04 | Paraguay vs France | France |
+| 2026-07-05 | Brazil vs Norway | Norway |
+| 2026-07-05 | Mexico vs England | England |
+| 2026-07-06 | Portugal vs Spain | Spain |
+| 2026-07-06 | United States vs Belgium | Belgium |
+| 2026-07-07 | Argentina vs Egypt | Argentina |
+| 2026-07-07 | Switzerland vs Colombia | Switzerland |
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d74f621a-c329-439b-981d-867a4b679dff" />
 
 # ⚠️ NOTE
 ```
